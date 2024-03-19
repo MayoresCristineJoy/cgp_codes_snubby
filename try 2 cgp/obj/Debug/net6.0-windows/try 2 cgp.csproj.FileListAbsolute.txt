@@ -1,0 +1,20 @@
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.exe
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.deps.json
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.runtimeconfig.json
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.dll
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.pdb
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.coverpage.resources
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.lvlone.resources
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.lvlthree.resources
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.lvltwo.resources
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.Properties.Resources.resources
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.csproj.GenerateResource.cache
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.AssemblyInfoInputs.cache
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.AssemblyInfo.cs
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.csproj.CoreCompileInputs.cache
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.dll
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\refint\try 2 cgp.dll
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.pdb
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.genruntimeconfig.cache
+C:\Users\Cristine Joy\source\repos\comprog2\try 2 cgp\try 2 cgp\obj\Debug\net6.0-windows\ref\try 2 cgp.dll
