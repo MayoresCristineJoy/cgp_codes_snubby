@@ -14,9 +14,7 @@ namespace try_2_cgp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lvlone lvlone = new lvlone();
-            lvlone.Show();
-            Hide();
+
         }
     }
 }

@@ -4,19 +4,13 @@
     <Compile Update="coverpage.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="level_three_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="level_one_frm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="lvlone.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="lvltwo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="lvlthree.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="testing.cs">
+    <Compile Update="level_two_frm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
