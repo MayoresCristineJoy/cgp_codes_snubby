@@ -24,11 +24,7 @@ C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.ru
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.dll
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\bin\Debug\net6.0-windows\try 2 cgp.pdb
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.coverpage.resources
-C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.lvlone.resources
-C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.lvlthree.resources
-C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.lvltwo.resources
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.Properties.Resources.resources
-C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.testing.resources
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.csproj.GenerateResource.cache
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.GeneratedMSBuildEditorConfig.editorconfig
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.AssemblyInfoInputs.cache
@@ -59,3 +55,5 @@ C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try 2 
 C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.genruntimeconfig.cache
 C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\ref\try 2 cgp.dll
 C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.Properties.level_two_frm.resources
+C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_three_frm.resources
+C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_two_frm.resources
