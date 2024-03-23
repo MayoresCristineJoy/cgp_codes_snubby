@@ -110,13 +110,14 @@
 
         }
 
+        private void startzonelvlone_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void endzonelvlone_Click(object sender, EventArgs e)
+        {
 
-
-
-
-
-
+        }
     }
 }

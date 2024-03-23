@@ -58,4 +58,5 @@ C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\refint
 C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.pdb
 C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try 2 cgp.genruntimeconfig.cache
 C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\ref\try 2 cgp.dll
-C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.Properties.level_two_frm.resources
+C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_three_frm.resources
+C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_two_frm.resources
