@@ -7,7 +7,7 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="level_three_frm.cs">
+    <Compile Update="level_one.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="level_one_frm.cs">

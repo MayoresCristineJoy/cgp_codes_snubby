@@ -13,19 +13,8 @@ namespace try_2_cgp {
         bool moveLeft, moveRight, moveUp, moveDown;
         public PictureBox player;
 
-        
+       
 
-
-        //obstacle properties
-        public PictureBox obstaclePictureBox;
-        public PictureBox upperBoundaryPictureBox;
-        public PictureBox lowerBoundaryPictureBox;
-
-
-
-        public void obstacle_movement(){
-
-        }
 
 
     }

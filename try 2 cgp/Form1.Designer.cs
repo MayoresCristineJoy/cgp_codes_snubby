@@ -1,5 +1,7 @@
-﻿namespace try_2_cgp {
-    partial class Form1 {
+﻿namespace try_2_cgp
+{
+    partial class Form1
+    {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -9,8 +11,10 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing) {
-            if (disposing && (components != null)) {
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -22,7 +26,8 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent() {
+        private void InitializeComponent()
+        {
             components = new System.ComponentModel.Container();
             upperBoundaryPictureBox = new PictureBox();
             lowerBoundaryPictureBox = new PictureBox();
@@ -30,20 +35,22 @@
             movementTimer = new System.Windows.Forms.Timer(components);
             pictureBox1 = new PictureBox();
             player = new PictureBox();
-            label1 = new Label();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)upperBoundaryPictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)lowerBoundaryPictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)obstaclePictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)player).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // upperBoundaryPictureBox
             // 
             upperBoundaryPictureBox.BackColor = Color.Red;
-            upperBoundaryPictureBox.Location = new Point(130, 267);
+            upperBoundaryPictureBox.Location = new Point(177, 462);
+            upperBoundaryPictureBox.Margin = new Padding(4, 5, 4, 5);
             upperBoundaryPictureBox.Name = "upperBoundaryPictureBox";
-            upperBoundaryPictureBox.Size = new Size(100, 50);
+            upperBoundaryPictureBox.Size = new Size(143, 83);
             upperBoundaryPictureBox.TabIndex = 0;
             upperBoundaryPictureBox.TabStop = false;
             upperBoundaryPictureBox.Tag = "boundary";
@@ -52,9 +59,10 @@
             // lowerBoundaryPictureBox
             // 
             lowerBoundaryPictureBox.BackColor = Color.Red;
-            lowerBoundaryPictureBox.Location = new Point(371, 267);
+            lowerBoundaryPictureBox.Location = new Point(548, 462);
+            lowerBoundaryPictureBox.Margin = new Padding(4, 5, 4, 5);
             lowerBoundaryPictureBox.Name = "lowerBoundaryPictureBox";
-            lowerBoundaryPictureBox.Size = new Size(100, 50);
+            lowerBoundaryPictureBox.Size = new Size(143, 83);
             lowerBoundaryPictureBox.TabIndex = 1;
             lowerBoundaryPictureBox.TabStop = false;
             lowerBoundaryPictureBox.Tag = "boundary";
@@ -63,9 +71,10 @@
             // obstaclePictureBox
             // 
             obstaclePictureBox.BackColor = Color.Blue;
-            obstaclePictureBox.Location = new Point(130, 267);
+            obstaclePictureBox.Location = new Point(357, 462);
+            obstaclePictureBox.Margin = new Padding(4, 5, 4, 5);
             obstaclePictureBox.Name = "obstaclePictureBox";
-            obstaclePictureBox.Size = new Size(100, 50);
+            obstaclePictureBox.Size = new Size(143, 83);
             obstaclePictureBox.TabIndex = 2;
             obstaclePictureBox.TabStop = false;
             // 
@@ -77,9 +86,10 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Red;
-            pictureBox1.Location = new Point(130, 333);
+            pictureBox1.Location = new Point(71, 245);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(341, 50);
+            pictureBox1.Size = new Size(104, 405);
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             pictureBox1.Tag = "boundary";
@@ -87,32 +97,36 @@
             // player
             // 
             player.BackColor = Color.Yellow;
-            player.Location = new Point(41, 30);
+            player.Location = new Point(59, 50);
+            player.Margin = new Padding(4, 5, 4, 5);
             player.Name = "player";
-            player.Size = new Size(100, 50);
+            player.Size = new Size(143, 83);
             player.TabIndex = 4;
             player.TabStop = false;
             // 
-            // label1
+            // pictureBox2
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(334, 79);
-            label1.Name = "label1";
-            label1.Size = new Size(130, 15);
-            label1.TabIndex = 5;
-            label1.Text = "updated ung codes mo";
+            pictureBox2.BackColor = Color.Red;
+            pictureBox2.Location = new Point(693, 239);
+            pictureBox2.Margin = new Padding(4, 5, 4, 5);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(104, 405);
+            pictureBox2.TabIndex = 5;
+            pictureBox2.TabStop = false;
+            pictureBox2.Tag = "boundary";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            ClientSize = new Size(1143, 750);
+            Controls.Add(pictureBox2);
             Controls.Add(player);
             Controls.Add(pictureBox1);
             Controls.Add(obstaclePictureBox);
             Controls.Add(lowerBoundaryPictureBox);
             Controls.Add(upperBoundaryPictureBox);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -123,8 +137,8 @@
             ((System.ComponentModel.ISupportInitialize)obstaclePictureBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)player).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -135,6 +149,6 @@
         private System.Windows.Forms.Timer movementTimer;
         private PictureBox pictureBox1;
         private PictureBox player;
-        private Label label1;
+        private PictureBox pictureBox2;
     }
 }

@@ -8,7 +8,7 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Cristine Joy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,18 +16,16 @@
       "projectUniqueName": "C:\\xampp\\htdocs\\cgp_codes_snubby\\try 2 cgp\\try 2 cgp.csproj",
       "projectName": "try 2 cgp",
       "projectPath": "C:\\xampp\\htdocs\\cgp_codes_snubby\\try 2 cgp\\try 2 cgp.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Cristine Joy\\.nuget\\packages\\",
       "outputPath": "C:\\xampp\\htdocs\\cgp_codes_snubby\\try 2 cgp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Cristine Joy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +62,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
