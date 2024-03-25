@@ -62,3 +62,4 @@ C:\Users\Cristine Joy\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_three_frm.resources
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_two_frm.resources
 >>>>>>> 6fdf78f7c35c9548be3f6c27969e5176570d91fa
+C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.Form1.resources

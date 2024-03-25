@@ -9,36 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace try_2_cgp {
-    public partial class level_two_frm : Form {
+    public partial class Form1 : Form {
 
-        private Point previousPlayerLocation;
+        private testingMovement testingMovement = new testingMovement();
+        private int obstacleSpeed = 10; // Adjust speed as needed
+        private bool movingDown = true;
         bool moveLeft, moveRight, moveUp, moveDown;
-        int speed = 10;
-        int obs_speed = 3;
-
-        public level_two_frm() {
+        int speed = 15;
+        public Form1() {
             InitializeComponent();
-        }
 
-        private void pictureBox12_Click(object sender, EventArgs e) {
 
         }
 
-        private void pictureBox11_Click(object sender, EventArgs e) {
+        private void movementTimer_Tick(object sender, EventArgs e) {
 
-        }
-
-        private void pictureBox13_Click(object sender, EventArgs e) {
-
-        }
-
-<<<<<<< HEAD
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
-=======
-        private void maintimerevent(object sender, EventArgs e) {
             if (moveLeft == true && player.Left > 1) {
                 player.Left -= speed;
             }
@@ -54,19 +39,37 @@ namespace try_2_cgp {
             if (moveDown == true && player.Top < 362) {
                 player.Top += speed;
             }
-            foreach (Control x in this.Controls) {
-                if (x is PictureBox && (string)x.Tag == "wall") {
 
-                    if (player.Bounds.IntersectsWith(x.Bounds)) {
-                        player.Location = previousPlayerLocation;
-                    }
-                }
+            int upperBoundary = upperBoundaryPictureBox.Location.X;
+            int lowerBoundary = lowerBoundaryPictureBox.Location.X;
+
+
+            if (movingDown && obstaclePictureBox.Left <= lowerBoundary) {
+                obstaclePictureBox.Left += obstacleSpeed;
+
+            } else if (!movingDown && obstaclePictureBox.Left >= upperBoundary) {
+
+                obstaclePictureBox.Left -= obstacleSpeed;
+            } else {
+                // Reverse direction when reaching boundaries
+                movingDown = !movingDown;
             }
-            previousPlayerLocation = player.Location;
+        }
+
+        private void Form1_Load(object sender, EventArgs e) {
+
+            movementTimer.Start();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e) {
+            movementTimer.Stop();
+        }
+
+        private void obstaclePictureBox_Click(object sender, EventArgs e) {
+
         }
 
         private void keyisdown(object sender, KeyEventArgs e) {
-
             if (e.KeyCode == Keys.Left) {
                 moveLeft = true;
             }
@@ -82,7 +85,6 @@ namespace try_2_cgp {
             if (e.KeyCode == Keys.Down) {
                 moveDown = true;
             }
-
         }
 
         private void keyisup(object sender, KeyEventArgs e) {
@@ -102,6 +104,5 @@ namespace try_2_cgp {
                 moveDown = false;
             }
         }
->>>>>>> 6fdf78f7c35c9548be3f6c27969e5176570d91fa
     }
 }
