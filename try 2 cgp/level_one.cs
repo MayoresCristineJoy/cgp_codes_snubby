@@ -15,6 +15,8 @@ namespace try_2_cgp
     {
         private bool movingDown1 = true;
         private bool movingDown2 = true;
+        private bool movingDown3 = true;
+        private bool movingDown4 = true;
         private int obstacleSpeed = 3;
         bool moveLeft, moveRight, moveUp, moveDown;
         int speed = 15;
@@ -79,6 +81,11 @@ namespace try_2_cgp
             int Lowerbound_1 = lowerboundary_1.Location.Y;
             int Upperbound_2 = upperboundary_2.Location.Y;
             int Lowerbound_2 = lowerboundary_2.Location.Y;
+            int Leftbound_3 = leftboundary_3.Location.X;
+            int Rightbound_3 = rightboundary_3.Location.X;
+            int Leftbound_4 = leftboundary_4.Location.X;
+            int Rightbound_4 = rightboundary_4.Location.X;
+
 
             //obstacle number 1 up and down
             if (movingDown1 && obstacle_1.Top <= Lowerbound_1)
@@ -86,13 +93,18 @@ namespace try_2_cgp
                 // increment 
                 obstacle_1.Top += obstacleSpeed;
                 obstacle_3.Top += obstacleSpeed;
+                obstacle_5.Top += obstacleSpeed;
+                obstacle_12.Top += obstacleSpeed;
+                obstacle_14.Top += obstacleSpeed;
             }
             else if (!movingDown1 && obstacle_1.Top >= Upperbound_1)
             {
                 //ito  -= decrement 
                 obstacle_1.Top -= obstacleSpeed;
                 obstacle_3.Top -= obstacleSpeed;
-
+                obstacle_5.Top -= obstacleSpeed;
+                obstacle_12.Top -= obstacleSpeed;
+                obstacle_14.Top -= obstacleSpeed;
             }
             else
             {
@@ -106,12 +118,18 @@ namespace try_2_cgp
                 // increment 
                 obstacle_2.Top += obstacleSpeed;
                 obstacle_4.Top += obstacleSpeed;
+                obstacle_11.Top += obstacleSpeed;
+                obstacle_13.Top += obstacleSpeed;
+                obstacle_15.Top += obstacleSpeed;
             }
             else if (!movingDown2 && obstacle_2.Top >= Upperbound_2)
             {
                 //ito  -= decrement 
                 obstacle_2.Top -= obstacleSpeed;
                 obstacle_4.Top -= obstacleSpeed;
+                obstacle_11.Top -= obstacleSpeed;
+                obstacle_13.Top -= obstacleSpeed;
+                obstacle_15.Top -= obstacleSpeed;
             }
             else
             {
@@ -119,6 +137,40 @@ namespace try_2_cgp
                 movingDown2 = !movingDown2;
             }
 
+            /// obstacle number 3 right and left
+            if (movingDown3 && obstacle_6.Left <= Rightbound_3)
+            {
+                obstacle_6.Left += obstacleSpeed;
+                obstacle_8.Left += obstacleSpeed;
+                obstacle_10.Left += obstacleSpeed;
+            }
+            else if (!movingDown3 && obstacle_6.Left >= Leftbound_3)
+            {
+                obstacle_6.Left -= obstacleSpeed;
+                obstacle_8.Left -= obstacleSpeed;
+                obstacle_10.Left -= obstacleSpeed;
+            }
+            else
+            {
+                // Reverse direction when reaching boundaries
+                movingDown3 = !movingDown3;
+            }
+            /// number 4
+            if (movingDown4 && obstacle_7.Left <= Rightbound_4)
+            {
+                obstacle_7.Left += obstacleSpeed;
+                obstacle_9.Left += obstacleSpeed;
+            }
+            else if (!movingDown4 && obstacle_7.Left >= Leftbound_4)
+            {
+                obstacle_7.Left -= obstacleSpeed;
+                obstacle_9.Left -= obstacleSpeed;
+            }
+            else
+            {
+                // Reverse direction when reaching boundaries
+                movingDown4 = !movingDown4;
+            }
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
@@ -165,6 +217,16 @@ namespace try_2_cgp
             {
                 moveDown = false;
             }
+        }
+
+        private void level_one_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void obstacle_10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
