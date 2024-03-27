@@ -8,10 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace try_2_cgp
-{
-    public partial class level_two : Form
-    {
+namespace try_2_cgp {
+    public partial class level_two : Form {
         private bool movingDown1 = true;
         private bool movingDown2 = true;
         private bool movingDown3 = true;
@@ -20,30 +18,24 @@ namespace try_2_cgp
         bool moveLeft, moveRight, moveUp, moveDown;
         int speed = 15;
         private Point previousPlayerLocation;
-        public level_two()
-        {
+        public level_two() {
             InitializeComponent();
         }
 
-        private void timermovement_Tick(object sender, EventArgs e)
-        {
-            if (moveLeft == true && player.Left > 1)
-            {
+        private void timermovement_Tick(object sender, EventArgs e) {
+            if (moveLeft == true && player.Left > 1) {
                 player.Left -= speed;
             }
 
-            if (moveRight == true && player.Left < 686)
-            {
+            if (moveRight == true && player.Left < 686) {
                 player.Left += speed;
             }
 
-            if (moveUp == true && player.Top > 1)
-            {
+            if (moveUp == true && player.Top > 1) {
                 player.Top -= speed;
             }
 
-            if (moveDown == true && player.Top < 362)
-            {
+            if (moveDown == true && player.Top < 362) {
                 player.Top += speed;
             }
 
@@ -59,8 +51,7 @@ namespace try_2_cgp
             int Rightbound_4 = rightboundary_2.Location.X;
 
             //obstacle number 1 up and down
-            if (movingDown1 && obstacle_1.Top <= Lowerbound_1)
-            {
+            if (movingDown1 && obstacle_1.Top <= Lowerbound_1) {
                 // increment 
                 obstacle_1.Top += obstacleSpeed;
                 obstacle_3.Top += obstacleSpeed;
@@ -79,9 +70,7 @@ namespace try_2_cgp
                 obstacle_25.Top += obstacleSpeed;
                 obstacle_27.Top += obstacleSpeed;
 
-            }
-            else if (!movingDown1 && obstacle_1.Top >= Upperbound_1)
-            {
+            } else if (!movingDown1 && obstacle_1.Top >= Upperbound_1) {
                 //ito  -= decrement 
                 obstacle_1.Top -= obstacleSpeed;
                 obstacle_3.Top -= obstacleSpeed;
@@ -99,16 +88,13 @@ namespace try_2_cgp
                 obstacle_23.Top -= obstacleSpeed;
                 obstacle_25.Top -= obstacleSpeed;
                 obstacle_27.Top -= obstacleSpeed;
-            }
-            else
-            {
+            } else {
                 // Reverse direction when reaching boundaries
                 movingDown1 = !movingDown1;
             }
 
             ///// obstacle 2 
-            if (movingDown2 && obstacle_2.Top <= Lowerbound_2)
-            {
+            if (movingDown2 && obstacle_2.Top <= Lowerbound_2) {
                 // increment 
                 obstacle_2.Top += obstacleSpeed;
                 obstacle_4.Top += obstacleSpeed;
@@ -122,9 +108,7 @@ namespace try_2_cgp
                 obstacle_24.Top += obstacleSpeed;
                 obstacle_26.Top += obstacleSpeed;
                 obstacle_28.Top += obstacleSpeed;
-            }
-            else if (!movingDown2 && obstacle_2.Top >= Upperbound_2)
-            {
+            } else if (!movingDown2 && obstacle_2.Top >= Upperbound_2) {
                 //ito  -= decrement 
                 obstacle_2.Top -= obstacleSpeed;
                 obstacle_4.Top -= obstacleSpeed;
@@ -139,121 +123,94 @@ namespace try_2_cgp
                 obstacle_26.Top -= obstacleSpeed;
                 obstacle_28.Top -= obstacleSpeed;
 
-            }
-            else
-            {
+            } else {
                 // Reverse direction when reaching boundaries
                 movingDown2 = !movingDown2;
             }
 
             /// obstacle number 3 right and left
-            if (movingDown3 && obstacle_30.Left <= Rightbound_3)
-            {
+            if (movingDown3 && obstacle_30.Left <= Rightbound_3) {
                 obstacle_30.Left += obstacleSpeed;
                 obstacle_32.Left += obstacleSpeed;
                 obstacle_34.Left += obstacleSpeed;
-            }
-            else if (!movingDown3 && obstacle_30.Left >= Leftbound_3)
-            {
+            } else if (!movingDown3 && obstacle_30.Left >= Leftbound_3) {
                 obstacle_30.Left -= obstacleSpeed;
                 obstacle_32.Left -= obstacleSpeed;
                 obstacle_34.Left -= obstacleSpeed;
-            }
-            else
-            {
+            } else {
                 // Reverse direction when reaching boundaries
                 movingDown3 = !movingDown3;
             }
 
             /// number 4
-            if (movingDown4 && obstacle_29.Left <= Rightbound_4)
-            {
+            if (movingDown4 && obstacle_29.Left <= Rightbound_4) {
                 obstacle_29.Left += obstacleSpeed;
                 obstacle_31.Left += obstacleSpeed;
                 obstacle_33.Left += obstacleSpeed;
-            }
-            else if (!movingDown4 && obstacle_31.Left >= Leftbound_4)
-            {
+            } else if (!movingDown4 && obstacle_31.Left >= Leftbound_4) {
                 obstacle_29.Left -= obstacleSpeed;
                 obstacle_31.Left -= obstacleSpeed;
                 obstacle_33.Left -= obstacleSpeed;
-            }
-            else
-            {
+            } else {
                 // Reverse direction when reaching boundaries
                 movingDown4 = !movingDown4;
             }
         }
 
-        private void keyisdown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Left)
-            {
+        private void keyisdown(object sender, KeyEventArgs e) {
+            if (e.KeyCode == Keys.Left) {
                 moveLeft = true;
             }
 
-            if (e.KeyCode == Keys.Right)
-            {
+            if (e.KeyCode == Keys.Right) {
                 moveRight = true;
             }
 
-            if (e.KeyCode == Keys.Up)
-            {
+            if (e.KeyCode == Keys.Up) {
                 moveUp = true;
             }
 
-            if (e.KeyCode == Keys.Down)
-            {
+            if (e.KeyCode == Keys.Down) {
                 moveDown = true;
             }
 
         }
 
-        private void keyisup(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Left)
-            {
+        private void keyisup(object sender, KeyEventArgs e) {
+            if (e.KeyCode == Keys.Left) {
                 moveLeft = false;
             }
 
-            if (e.KeyCode == Keys.Right)
-            {
+            if (e.KeyCode == Keys.Right) {
                 moveRight = false;
             }
 
-            if (e.KeyCode == Keys.Up)
-            {
+            if (e.KeyCode == Keys.Up) {
                 moveUp = false;
             }
 
-            if (e.KeyCode == Keys.Down)
-            {
+            if (e.KeyCode == Keys.Down) {
                 moveDown = false;
             }
         }
 
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
+        private void pictureBox10_Click(object sender, EventArgs e) {
 
         }
 
-        private void pictureBox48_Click(object sender, EventArgs e)
-        {
+        private void pictureBox48_Click(object sender, EventArgs e) {
 
         }
 
-        private void obstacle_25_Click(object sender, EventArgs e)
-        {
+        private void obstacle_25_Click(object sender, EventArgs e) {
 
         }
 
-        private void obstacle_26_Click(object sender, EventArgs e)
-        {
+        private void obstacle_26_Click(object sender, EventArgs e) {
 
         }
 
-        private void obstacle_34_Click(object sender, EventArgs e)
-        {
+        private void obstacle_34_Click(object sender, EventArgs e) {
 
         }
     }
