@@ -30,12 +30,12 @@
         {
             components = new System.ComponentModel.Container();
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
+            startzonelevel = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox7 = new PictureBox();
-            pictureBox8 = new PictureBox();
+            endzonelevel = new PictureBox();
             player = new PictureBox();
             timermovement = new System.Windows.Forms.Timer(components);
             lowerboundary_1 = new PictureBox();
@@ -87,12 +87,12 @@
             obstacle_14 = new PictureBox();
             obstacle_15 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)startzonelevel).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)endzonelevel).BeginInit();
             ((System.ComponentModel.ISupportInitialize)player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)lowerboundary_1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)upperboundary_1).BeginInit();
@@ -155,15 +155,15 @@
             pictureBox1.Tag = "wall";
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // pictureBox2
+            // startzonelevel
             // 
-            pictureBox2.BackColor = Color.Lime;
-            pictureBox2.Location = new Point(278, 90);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(134, 188);
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
-            pictureBox2.Tag = "";
+            startzonelevel.BackColor = Color.Lime;
+            startzonelevel.Location = new Point(278, 90);
+            startzonelevel.Name = "startzonelevel";
+            startzonelevel.Size = new Size(134, 188);
+            startzonelevel.TabIndex = 1;
+            startzonelevel.TabStop = false;
+            startzonelevel.Tag = "";
             // 
             // pictureBox3
             // 
@@ -205,15 +205,15 @@
             pictureBox7.TabStop = false;
             pictureBox7.Tag = "wall";
             // 
-            // pictureBox8
+            // endzonelevel
             // 
-            pictureBox8.BackColor = Color.Lime;
-            pictureBox8.Location = new Point(278, 543);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(134, 184);
-            pictureBox8.TabIndex = 7;
-            pictureBox8.TabStop = false;
-            pictureBox8.Tag = "zone";
+            endzonelevel.BackColor = Color.Yellow;
+            endzonelevel.Location = new Point(278, 543);
+            endzonelevel.Name = "endzonelevel";
+            endzonelevel.Size = new Size(134, 184);
+            endzonelevel.TabIndex = 7;
+            endzonelevel.TabStop = false;
+            endzonelevel.Tag = "zone";
             // 
             // player
             // 
@@ -765,12 +765,12 @@
             Controls.Add(upperboundary_1);
             Controls.Add(lowerboundary_1);
             Controls.Add(player);
-            Controls.Add(pictureBox8);
+            Controls.Add(endzonelevel);
             Controls.Add(pictureBox7);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
+            Controls.Add(startzonelevel);
             Controls.Add(pictureBox1);
             Name = "level_one";
             StartPosition = FormStartPosition.CenterScreen;
@@ -779,12 +779,12 @@
             KeyDown += keyisdown;
             KeyUp += keyisup;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)startzonelevel).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)endzonelevel).EndInit();
             ((System.ComponentModel.ISupportInitialize)player).EndInit();
             ((System.ComponentModel.ISupportInitialize)lowerboundary_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)upperboundary_1).EndInit();
@@ -840,12 +840,12 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private PictureBox startzonelevel;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox7;
-        private PictureBox pictureBox8;
+        private PictureBox endzonelevel;
         private PictureBox player;
         private System.Windows.Forms.Timer timermovement;
         private PictureBox lowerboundary_1;
