@@ -227,5 +227,10 @@ namespace try_2_cgp
         {
 
         }
+
+        private void obstacle_8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

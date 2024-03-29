@@ -66,3 +66,4 @@ C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.Fo
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_one.resources
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_two.resources
 C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.Form2.resources
+C:\xampp\htdocs\cgp_codes_snubby\try 2 cgp\obj\Debug\net6.0-windows\try_2_cgp.level_three.resources

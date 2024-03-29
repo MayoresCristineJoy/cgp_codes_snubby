@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace try_2_cgp
 {
-    public partial class level_two : Form
+    public partial class level_three : Form
     {
         private bool movingDown1 = true;
         private bool movingDown2 = true;
@@ -20,9 +20,14 @@ namespace try_2_cgp
         bool moveLeft, moveRight, moveUp, moveDown;
         int speed = 15;
         private Point previousPlayerLocation;
-        public level_two()
+        public level_three()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void timermovement_Tick(object sender, EventArgs e)
@@ -66,19 +71,20 @@ namespace try_2_cgp
                 obstacle_3.Top += obstacleSpeed;
                 obstacle_5.Top += obstacleSpeed;
                 obstacle_7.Top += obstacleSpeed;
-                obstacle_9.Top += obstacleSpeed;
-                obstacle_11.Top += obstacleSpeed;
                 obstacle_12.Top += obstacleSpeed;
                 obstacle_14.Top += obstacleSpeed;
-                obstacle_15.Top += obstacleSpeed;
-                obstacle_17.Top += obstacleSpeed;
+                obstacle_16.Top += obstacleSpeed;
                 obstacle_18.Top += obstacleSpeed;
-                obstacle_20.Top += obstacleSpeed;
-                obstacle_21.Top += obstacleSpeed;
-                obstacle_23.Top += obstacleSpeed;
-                obstacle_25.Top += obstacleSpeed;
-                obstacle_27.Top += obstacleSpeed;
-
+                obstacle_26.Top += obstacleSpeed;
+                obstacle_28.Top += obstacleSpeed;
+                obstacle_30.Top += obstacleSpeed;
+                obstacle_32.Top += obstacleSpeed;
+                obstacle_38.Top += obstacleSpeed;
+                obstacle_40.Top += obstacleSpeed;
+                obstacle_42.Top += obstacleSpeed;
+                obstacle_44.Top += obstacleSpeed;
+                obstacle_49.Top += obstacleSpeed;
+                obstacle_51.Top += obstacleSpeed;
             }
             else if (!movingDown1 && obstacle_1.Top >= Upperbound_1)
             {
@@ -87,18 +93,20 @@ namespace try_2_cgp
                 obstacle_3.Top -= obstacleSpeed;
                 obstacle_5.Top -= obstacleSpeed;
                 obstacle_7.Top -= obstacleSpeed;
-                obstacle_9.Top -= obstacleSpeed;
-                obstacle_11.Top -= obstacleSpeed;
                 obstacle_12.Top -= obstacleSpeed;
                 obstacle_14.Top -= obstacleSpeed;
-                obstacle_15.Top -= obstacleSpeed;
-                obstacle_17.Top -= obstacleSpeed;
+                obstacle_16.Top -= obstacleSpeed;
                 obstacle_18.Top -= obstacleSpeed;
-                obstacle_20.Top -= obstacleSpeed;
-                obstacle_21.Top -= obstacleSpeed;
-                obstacle_23.Top -= obstacleSpeed;
-                obstacle_25.Top -= obstacleSpeed;
-                obstacle_27.Top -= obstacleSpeed;
+                obstacle_26.Top -= obstacleSpeed;
+                obstacle_28.Top -= obstacleSpeed;
+                obstacle_30.Top -= obstacleSpeed;
+                obstacle_32.Top -= obstacleSpeed;
+                obstacle_38.Top -= obstacleSpeed;
+                obstacle_40.Top -= obstacleSpeed;
+                obstacle_42.Top -= obstacleSpeed;
+                obstacle_44.Top -= obstacleSpeed;
+                obstacle_49.Top -= obstacleSpeed;
+                obstacle_51.Top -= obstacleSpeed;
             }
             else
             {
@@ -114,14 +122,20 @@ namespace try_2_cgp
                 obstacle_4.Top += obstacleSpeed;
                 obstacle_6.Top += obstacleSpeed;
                 obstacle_8.Top += obstacleSpeed;
-                obstacle_10.Top += obstacleSpeed;
                 obstacle_13.Top += obstacleSpeed;
-                obstacle_16.Top += obstacleSpeed;
+                obstacle_15.Top += obstacleSpeed;
+                obstacle_17.Top += obstacleSpeed;
                 obstacle_19.Top += obstacleSpeed;
-                obstacle_22.Top += obstacleSpeed;
-                obstacle_24.Top += obstacleSpeed;
-                obstacle_26.Top += obstacleSpeed;
-                obstacle_28.Top += obstacleSpeed;
+                obstacle_27.Top += obstacleSpeed;
+                obstacle_29.Top += obstacleSpeed;
+                obstacle_31.Top += obstacleSpeed;
+                obstacle_33.Top += obstacleSpeed;
+                obstacle_39.Top += obstacleSpeed;
+                obstacle_41.Top += obstacleSpeed;
+                obstacle_43.Top += obstacleSpeed;
+                obstacle_48.Top += obstacleSpeed;
+                obstacle_50.Top += obstacleSpeed;
+                obstacle_52.Top += obstacleSpeed;
             }
             else if (!movingDown2 && obstacle_2.Top >= Upperbound_2)
             {
@@ -130,15 +144,20 @@ namespace try_2_cgp
                 obstacle_4.Top -= obstacleSpeed;
                 obstacle_6.Top -= obstacleSpeed;
                 obstacle_8.Top -= obstacleSpeed;
-                obstacle_10.Top -= obstacleSpeed;
                 obstacle_13.Top -= obstacleSpeed;
-                obstacle_16.Top -= obstacleSpeed;
+                obstacle_15.Top -= obstacleSpeed;
+                obstacle_17.Top -= obstacleSpeed;
                 obstacle_19.Top -= obstacleSpeed;
-                obstacle_22.Top -= obstacleSpeed;
-                obstacle_24.Top -= obstacleSpeed;
-                obstacle_26.Top -= obstacleSpeed;
-                obstacle_28.Top -= obstacleSpeed;
-
+                obstacle_27.Top -= obstacleSpeed;
+                obstacle_29.Top -= obstacleSpeed;
+                obstacle_31.Top -= obstacleSpeed;
+                obstacle_33.Top -= obstacleSpeed;
+                obstacle_39.Top -= obstacleSpeed;
+                obstacle_41.Top -= obstacleSpeed;
+                obstacle_43.Top -= obstacleSpeed;
+                obstacle_48.Top -= obstacleSpeed;
+                obstacle_50.Top -= obstacleSpeed;
+                obstacle_52.Top -= obstacleSpeed;
             }
             else
             {
@@ -147,17 +166,28 @@ namespace try_2_cgp
             }
 
             /// obstacle number 3 right and left
-            if (movingDown3 && obstacle_30.Left <= Rightbound_3)
+            if (movingDown3 && obstacle_9.Left <= Rightbound_3)
             {
-                obstacle_30.Left += obstacleSpeed;
-                obstacle_32.Left += obstacleSpeed;
+                obstacle_9.Left += obstacleSpeed;
+                obstacle_11.Left += obstacleSpeed;
+                obstacle_20.Left += obstacleSpeed;
+                obstacle_22.Left += obstacleSpeed;
+                obstacle_24.Left += obstacleSpeed;
                 obstacle_34.Left += obstacleSpeed;
+                obstacle_36.Left += obstacleSpeed;
+                obstacle_46.Left += obstacleSpeed;
+
             }
-            else if (!movingDown3 && obstacle_30.Left >= Leftbound_3)
+            else if (!movingDown3 && obstacle_9.Left >= Leftbound_3)
             {
-                obstacle_30.Left -= obstacleSpeed;
-                obstacle_32.Left -= obstacleSpeed;
+                obstacle_9.Left -= obstacleSpeed;
+                obstacle_11.Left -= obstacleSpeed;
+                obstacle_20.Left -= obstacleSpeed;
+                obstacle_22.Left -= obstacleSpeed;
+                obstacle_24.Left -= obstacleSpeed;
                 obstacle_34.Left -= obstacleSpeed;
+                obstacle_36.Left -= obstacleSpeed;
+                obstacle_46.Left -= obstacleSpeed;
             }
             else
             {
@@ -166,17 +196,27 @@ namespace try_2_cgp
             }
 
             /// number 4
-            if (movingDown4 && obstacle_29.Left <= Rightbound_4)
+            if (movingDown4 && obstacle_10.Left <= Rightbound_4)
             {
-                obstacle_29.Left += obstacleSpeed;
-                obstacle_31.Left += obstacleSpeed;
-                obstacle_33.Left += obstacleSpeed;
+                obstacle_10.Left += obstacleSpeed;
+                obstacle_21.Left += obstacleSpeed;
+                obstacle_23.Left += obstacleSpeed;
+                obstacle_25.Left += obstacleSpeed;
+                obstacle_35.Left += obstacleSpeed;
+                obstacle_37.Left += obstacleSpeed;
+                obstacle_45.Left += obstacleSpeed;
+                obstacle_47.Left += obstacleSpeed;
             }
-            else if (!movingDown4 && obstacle_31.Left >= Leftbound_4)
+            else if (!movingDown4 && obstacle_10.Left >= Leftbound_4)
             {
-                obstacle_29.Left -= obstacleSpeed;
-                obstacle_31.Left -= obstacleSpeed;
-                obstacle_33.Left -= obstacleSpeed;
+                obstacle_10.Left -= obstacleSpeed;
+                obstacle_21.Left -= obstacleSpeed;
+                obstacle_23.Left -= obstacleSpeed;
+                obstacle_25.Left -= obstacleSpeed;
+                obstacle_35.Left -= obstacleSpeed;
+                obstacle_37.Left -= obstacleSpeed;
+                obstacle_45.Left -= obstacleSpeed;
+                obstacle_47.Left -= obstacleSpeed;
             }
             else
             {
@@ -206,7 +246,6 @@ namespace try_2_cgp
             {
                 moveDown = true;
             }
-
         }
 
         private void keyisup(object sender, KeyEventArgs e)
@@ -232,32 +271,32 @@ namespace try_2_cgp
             }
         }
 
-        private void pictureBox10_Click(object sender, EventArgs e)
+        private void player_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox48_Click(object sender, EventArgs e)
+        private void pictureBox13_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void obstacle_25_Click(object sender, EventArgs e)
+        private void level_three_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void obstacle_26_Click(object sender, EventArgs e)
+        private void lowerboundary_7_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void obstacle_34_Click(object sender, EventArgs e)
+        private void pictureBox30_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
 
         }
