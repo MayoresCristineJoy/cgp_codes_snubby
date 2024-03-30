@@ -378,9 +378,9 @@
             // 
             pictureBox1.BackColor = Color.Blue;
             pictureBox1.Image = Properties.Resources._432488241_1445819822997156_2281359772636947960_ncopy;
-            pictureBox1.Location = new Point(295, 110);
+            pictureBox1.Location = new Point(168, 110);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1098, 51);
+            pictureBox1.Size = new Size(1225, 51);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -2063,7 +2063,7 @@
             levelnumber.Name = "levelnumber";
             levelnumber.Size = new Size(172, 47);
             levelnumber.TabIndex = 170;
-            levelnumber.Text = "Level 2";
+            levelnumber.Text = "Level 3";
             // 
             // deathcounter
             // 
@@ -2080,6 +2080,17 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1618, 1050);
+            Controls.Add(pictureBox6);
+            Controls.Add(pictureBox8);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox7);
+            Controls.Add(pictureBox9);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox10);
+            Controls.Add(player);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(exit);
             Controls.Add(levelnumber);
             Controls.Add(deathcounter);
@@ -2224,19 +2235,8 @@
             Controls.Add(leftboundary_1);
             Controls.Add(obstacle_1);
             Controls.Add(upperboundary_1);
-            Controls.Add(player);
             Controls.Add(endzonelevel);
             Controls.Add(startzonelevel);
-            Controls.Add(pictureBox10);
-            Controls.Add(pictureBox9);
-            Controls.Add(pictureBox8);
-            Controls.Add(pictureBox7);
-            Controls.Add(pictureBox6);
-            Controls.Add(pictureBox5);
-            Controls.Add(pictureBox4);
-            Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
             Controls.Add(leftboundary_2);
             Controls.Add(upperboundary_3);
             Controls.Add(lowerboundary_1);
