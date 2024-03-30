@@ -256,10 +256,10 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Blue;
-            pictureBox1.Location = new Point(138, 22);
-            pictureBox1.Margin = new Padding(2, 2, 2, 2);
+            pictureBox1.Location = new Point(37, 1);
+            pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(736, 29);
+            pictureBox1.Size = new Size(814, 29);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Tag = "wall";
@@ -267,8 +267,8 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Blue;
-            pictureBox2.Location = new Point(138, 107);
-            pictureBox2.Margin = new Padding(2, 2, 2, 2);
+            pictureBox2.Location = new Point(115, 86);
+            pictureBox2.Margin = new Padding(2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(629, 29);
             pictureBox2.TabIndex = 1;
@@ -278,38 +278,40 @@
             // player
             // 
             player.BackColor = Color.Fuchsia;
-            player.Location = new Point(83, 69);
-            player.Margin = new Padding(2, 2, 2, 2);
+            player.Location = new Point(66, 50);
+            player.Margin = new Padding(2);
             player.Name = "player";
-            player.Size = new Size(31, 24);
+            player.Size = new Size(23, 20);
             player.TabIndex = 2;
             player.TabStop = false;
             // 
             // upperboundary_1
             // 
             upperboundary_1.BackColor = Color.Red;
-            upperboundary_1.Location = new Point(157, 49);
-            upperboundary_1.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_1.Location = new Point(134, 28);
+            upperboundary_1.Margin = new Padding(2);
             upperboundary_1.Name = "upperboundary_1";
             upperboundary_1.Size = new Size(26, 22);
             upperboundary_1.TabIndex = 3;
             upperboundary_1.TabStop = false;
+            upperboundary_1.Visible = false;
             // 
             // lowerboundary_1
             // 
             lowerboundary_1.BackColor = Color.Red;
-            lowerboundary_1.Location = new Point(155, 88);
-            lowerboundary_1.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_1.Location = new Point(132, 67);
+            lowerboundary_1.Margin = new Padding(2);
             lowerboundary_1.Name = "lowerboundary_1";
             lowerboundary_1.Size = new Size(26, 22);
             lowerboundary_1.TabIndex = 4;
             lowerboundary_1.TabStop = false;
+            lowerboundary_1.Visible = false;
             // 
             // obstacle_1
             // 
             obstacle_1.BackColor = Color.Black;
-            obstacle_1.Location = new Point(155, 50);
-            obstacle_1.Margin = new Padding(2, 2, 2, 2);
+            obstacle_1.Location = new Point(134, 28);
+            obstacle_1.Margin = new Padding(2);
             obstacle_1.Name = "obstacle_1";
             obstacle_1.Size = new Size(27, 21);
             obstacle_1.TabIndex = 5;
@@ -324,8 +326,8 @@
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Blue;
-            pictureBox3.Location = new Point(138, 192);
-            pictureBox3.Margin = new Padding(2, 2, 2, 2);
+            pictureBox3.Location = new Point(115, 171);
+            pictureBox3.Margin = new Padding(2);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(272, 29);
             pictureBox3.TabIndex = 6;
@@ -335,8 +337,8 @@
             // pictureBox4
             // 
             pictureBox4.BackColor = Color.Blue;
-            pictureBox4.Location = new Point(138, 277);
-            pictureBox4.Margin = new Padding(2, 2, 2, 2);
+            pictureBox4.Location = new Point(115, 256);
+            pictureBox4.Margin = new Padding(2);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(627, 29);
             pictureBox4.TabIndex = 7;
@@ -346,10 +348,10 @@
             // pictureBox5
             // 
             pictureBox5.BackColor = Color.Blue;
-            pictureBox5.Location = new Point(23, 365);
-            pictureBox5.Margin = new Padding(2, 2, 2, 2);
+            pictureBox5.Location = new Point(0, 345);
+            pictureBox5.Margin = new Padding(2);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(742, 29);
+            pictureBox5.Size = new Size(858, 29);
             pictureBox5.TabIndex = 8;
             pictureBox5.TabStop = false;
             pictureBox5.Tag = "wall";
@@ -357,8 +359,8 @@
             // pictureBox6
             // 
             pictureBox6.BackColor = Color.Blue;
-            pictureBox6.Location = new Point(494, 192);
-            pictureBox6.Margin = new Padding(2, 2, 2, 2);
+            pictureBox6.Location = new Point(471, 171);
+            pictureBox6.Margin = new Padding(2);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(271, 29);
             pictureBox6.TabIndex = 9;
@@ -368,18 +370,18 @@
             // startzonelevel
             // 
             startzonelevel.BackColor = Color.Lime;
-            startzonelevel.Location = new Point(60, 20);
-            startzonelevel.Margin = new Padding(2, 2, 2, 2);
+            startzonelevel.Location = new Point(37, 28);
+            startzonelevel.Margin = new Padding(2);
             startzonelevel.Name = "startzonelevel";
-            startzonelevel.Size = new Size(80, 89);
+            startzonelevel.Size = new Size(80, 60);
             startzonelevel.TabIndex = 10;
             startzonelevel.TabStop = false;
             // 
             // pictureBox7
             // 
             pictureBox7.BackColor = Color.Yellow;
-            pictureBox7.Location = new Point(763, 305);
-            pictureBox7.Margin = new Padding(2, 2, 2, 2);
+            pictureBox7.Location = new Point(740, 284);
+            pictureBox7.Margin = new Padding(2);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(80, 89);
             pictureBox7.TabIndex = 11;
@@ -388,8 +390,8 @@
             // pictureBox8
             // 
             pictureBox8.BackColor = Color.Blue;
-            pictureBox8.Location = new Point(841, 22);
-            pictureBox8.Margin = new Padding(2, 2, 2, 2);
+            pictureBox8.Location = new Point(825, 1);
+            pictureBox8.Margin = new Padding(2);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(40, 373);
             pictureBox8.TabIndex = 12;
@@ -399,8 +401,8 @@
             // pictureBox9
             // 
             pictureBox9.BackColor = Color.Blue;
-            pictureBox9.Location = new Point(23, 20);
-            pictureBox9.Margin = new Padding(2, 2, 2, 2);
+            pictureBox9.Location = new Point(0, -1);
+            pictureBox9.Margin = new Padding(2);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(37, 374);
             pictureBox9.TabIndex = 13;
@@ -410,88 +412,96 @@
             // upperboundary_2
             // 
             upperboundary_2.BackColor = Color.Red;
-            upperboundary_2.Location = new Point(232, 50);
-            upperboundary_2.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_2.Location = new Point(209, 29);
+            upperboundary_2.Margin = new Padding(2);
             upperboundary_2.Name = "upperboundary_2";
             upperboundary_2.Size = new Size(26, 22);
             upperboundary_2.TabIndex = 14;
             upperboundary_2.TabStop = false;
+            upperboundary_2.Visible = false;
             // 
             // lowerboundary_2
             // 
             lowerboundary_2.BackColor = Color.Red;
-            lowerboundary_2.Location = new Point(232, 88);
-            lowerboundary_2.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_2.Location = new Point(209, 67);
+            lowerboundary_2.Margin = new Padding(2);
             lowerboundary_2.Name = "lowerboundary_2";
             lowerboundary_2.Size = new Size(26, 22);
             lowerboundary_2.TabIndex = 15;
             lowerboundary_2.TabStop = false;
+            lowerboundary_2.Visible = false;
             // 
             // upperboundary_3
             // 
             upperboundary_3.BackColor = Color.Red;
-            upperboundary_3.Location = new Point(316, 49);
-            upperboundary_3.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_3.Location = new Point(293, 28);
+            upperboundary_3.Margin = new Padding(2);
             upperboundary_3.Name = "upperboundary_3";
             upperboundary_3.Size = new Size(26, 22);
             upperboundary_3.TabIndex = 16;
             upperboundary_3.TabStop = false;
+            upperboundary_3.Visible = false;
             // 
             // lowerboundary_3
             // 
             lowerboundary_3.BackColor = Color.Red;
-            lowerboundary_3.Location = new Point(316, 88);
-            lowerboundary_3.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_3.Location = new Point(293, 67);
+            lowerboundary_3.Margin = new Padding(2);
             lowerboundary_3.Name = "lowerboundary_3";
             lowerboundary_3.Size = new Size(26, 22);
             lowerboundary_3.TabIndex = 17;
             lowerboundary_3.TabStop = false;
+            lowerboundary_3.Visible = false;
             // 
             // upperboundary_4
             // 
             upperboundary_4.BackColor = Color.Red;
-            upperboundary_4.Location = new Point(397, 49);
-            upperboundary_4.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_4.Location = new Point(374, 28);
+            upperboundary_4.Margin = new Padding(2);
             upperboundary_4.Name = "upperboundary_4";
             upperboundary_4.Size = new Size(26, 22);
             upperboundary_4.TabIndex = 18;
             upperboundary_4.TabStop = false;
+            upperboundary_4.Visible = false;
             // 
             // lowerboundary_4
             // 
             lowerboundary_4.BackColor = Color.Red;
-            lowerboundary_4.Location = new Point(397, 88);
-            lowerboundary_4.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_4.Location = new Point(374, 67);
+            lowerboundary_4.Margin = new Padding(2);
             lowerboundary_4.Name = "lowerboundary_4";
             lowerboundary_4.Size = new Size(26, 22);
             lowerboundary_4.TabIndex = 19;
             lowerboundary_4.TabStop = false;
+            lowerboundary_4.Visible = false;
             // 
             // upperboundary_5
             // 
             upperboundary_5.BackColor = Color.Red;
-            upperboundary_5.Location = new Point(479, 50);
-            upperboundary_5.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_5.Location = new Point(456, 29);
+            upperboundary_5.Margin = new Padding(2);
             upperboundary_5.Name = "upperboundary_5";
             upperboundary_5.Size = new Size(26, 22);
             upperboundary_5.TabIndex = 20;
             upperboundary_5.TabStop = false;
+            upperboundary_5.Visible = false;
             // 
             // lowerboundary_5
             // 
             lowerboundary_5.BackColor = Color.Red;
-            lowerboundary_5.Location = new Point(479, 88);
-            lowerboundary_5.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_5.Location = new Point(456, 67);
+            lowerboundary_5.Margin = new Padding(2);
             lowerboundary_5.Name = "lowerboundary_5";
             lowerboundary_5.Size = new Size(26, 22);
             lowerboundary_5.TabIndex = 21;
             lowerboundary_5.TabStop = false;
+            lowerboundary_5.Visible = false;
             // 
             // obstacle_2
             // 
             obstacle_2.BackColor = Color.Black;
-            obstacle_2.Location = new Point(232, 88);
-            obstacle_2.Margin = new Padding(2, 2, 2, 2);
+            obstacle_2.Location = new Point(209, 68);
+            obstacle_2.Margin = new Padding(2);
             obstacle_2.Name = "obstacle_2";
             obstacle_2.Size = new Size(27, 21);
             obstacle_2.TabIndex = 22;
@@ -500,8 +510,8 @@
             // obstacle_3
             // 
             obstacle_3.BackColor = Color.Black;
-            obstacle_3.Location = new Point(316, 49);
-            obstacle_3.Margin = new Padding(2, 2, 2, 2);
+            obstacle_3.Location = new Point(293, 30);
+            obstacle_3.Margin = new Padding(2);
             obstacle_3.Name = "obstacle_3";
             obstacle_3.Size = new Size(27, 21);
             obstacle_3.TabIndex = 23;
@@ -510,8 +520,8 @@
             // obstacle_4
             // 
             obstacle_4.BackColor = Color.Black;
-            obstacle_4.Location = new Point(397, 88);
-            obstacle_4.Margin = new Padding(2, 2, 2, 2);
+            obstacle_4.Location = new Point(374, 66);
+            obstacle_4.Margin = new Padding(2);
             obstacle_4.Name = "obstacle_4";
             obstacle_4.Size = new Size(27, 21);
             obstacle_4.TabIndex = 24;
@@ -520,8 +530,8 @@
             // obstacle_5
             // 
             obstacle_5.BackColor = Color.Black;
-            obstacle_5.Location = new Point(479, 50);
-            obstacle_5.Margin = new Padding(2, 2, 2, 2);
+            obstacle_5.Location = new Point(455, 29);
+            obstacle_5.Margin = new Padding(2);
             obstacle_5.Name = "obstacle_5";
             obstacle_5.Size = new Size(27, 21);
             obstacle_5.TabIndex = 25;
@@ -530,68 +540,74 @@
             // upperboundary_6
             // 
             upperboundary_6.BackColor = Color.Red;
-            upperboundary_6.Location = new Point(564, 50);
-            upperboundary_6.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_6.Location = new Point(541, 29);
+            upperboundary_6.Margin = new Padding(2);
             upperboundary_6.Name = "upperboundary_6";
             upperboundary_6.Size = new Size(26, 22);
             upperboundary_6.TabIndex = 26;
             upperboundary_6.TabStop = false;
+            upperboundary_6.Visible = false;
             // 
             // upperboundary_7
             // 
             upperboundary_7.BackColor = Color.Red;
-            upperboundary_7.Location = new Point(654, 50);
-            upperboundary_7.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_7.Location = new Point(631, 29);
+            upperboundary_7.Margin = new Padding(2);
             upperboundary_7.Name = "upperboundary_7";
             upperboundary_7.Size = new Size(26, 22);
             upperboundary_7.TabIndex = 27;
             upperboundary_7.TabStop = false;
+            upperboundary_7.Visible = false;
             // 
             // upperboundary_8
             // 
             upperboundary_8.BackColor = Color.Red;
-            upperboundary_8.Location = new Point(739, 50);
-            upperboundary_8.Margin = new Padding(2, 2, 2, 2);
+            upperboundary_8.Location = new Point(716, 29);
+            upperboundary_8.Margin = new Padding(2);
             upperboundary_8.Name = "upperboundary_8";
             upperboundary_8.Size = new Size(26, 22);
             upperboundary_8.TabIndex = 28;
             upperboundary_8.TabStop = false;
+            upperboundary_8.Visible = false;
             // 
             // lowerboundary_6
             // 
             lowerboundary_6.BackColor = Color.Red;
-            lowerboundary_6.Location = new Point(564, 87);
-            lowerboundary_6.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_6.Location = new Point(542, 66);
+            lowerboundary_6.Margin = new Padding(2);
             lowerboundary_6.Name = "lowerboundary_6";
             lowerboundary_6.Size = new Size(26, 22);
             lowerboundary_6.TabIndex = 29;
             lowerboundary_6.TabStop = false;
+            lowerboundary_6.Visible = false;
             // 
             // lowerboundary_7
             // 
             lowerboundary_7.BackColor = Color.Red;
-            lowerboundary_7.Location = new Point(654, 88);
-            lowerboundary_7.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_7.Location = new Point(631, 67);
+            lowerboundary_7.Margin = new Padding(2);
             lowerboundary_7.Name = "lowerboundary_7";
             lowerboundary_7.Size = new Size(26, 22);
             lowerboundary_7.TabIndex = 30;
             lowerboundary_7.TabStop = false;
+            lowerboundary_7.Visible = false;
             // 
             // lowerboundary_8
             // 
             lowerboundary_8.BackColor = Color.Red;
-            lowerboundary_8.Location = new Point(739, 88);
-            lowerboundary_8.Margin = new Padding(2, 2, 2, 2);
+            lowerboundary_8.Location = new Point(716, 67);
+            lowerboundary_8.Margin = new Padding(2);
             lowerboundary_8.Name = "lowerboundary_8";
             lowerboundary_8.Size = new Size(26, 22);
             lowerboundary_8.TabIndex = 31;
             lowerboundary_8.TabStop = false;
+            lowerboundary_8.Visible = false;
             // 
             // obstacle_6
             // 
             obstacle_6.BackColor = Color.Black;
-            obstacle_6.Location = new Point(564, 87);
-            obstacle_6.Margin = new Padding(2, 2, 2, 2);
+            obstacle_6.Location = new Point(542, 66);
+            obstacle_6.Margin = new Padding(2);
             obstacle_6.Name = "obstacle_6";
             obstacle_6.Size = new Size(27, 21);
             obstacle_6.TabIndex = 32;
@@ -600,8 +616,8 @@
             // obstacle_7
             // 
             obstacle_7.BackColor = Color.Black;
-            obstacle_7.Location = new Point(652, 50);
-            obstacle_7.Margin = new Padding(2, 2, 2, 2);
+            obstacle_7.Location = new Point(631, 30);
+            obstacle_7.Margin = new Padding(2);
             obstacle_7.Name = "obstacle_7";
             obstacle_7.Size = new Size(27, 21);
             obstacle_7.TabIndex = 33;
@@ -610,8 +626,8 @@
             // obstacle_8
             // 
             obstacle_8.BackColor = Color.Black;
-            obstacle_8.Location = new Point(739, 88);
-            obstacle_8.Margin = new Padding(2, 2, 2, 2);
+            obstacle_8.Location = new Point(716, 67);
+            obstacle_8.Margin = new Padding(2);
             obstacle_8.Name = "obstacle_8";
             obstacle_8.Size = new Size(27, 21);
             obstacle_8.TabIndex = 34;
@@ -620,529 +636,581 @@
             // rightboundary_2
             // 
             rightboundary_2.BackColor = Color.Red;
-            rightboundary_2.Location = new Point(818, 115);
-            rightboundary_2.Margin = new Padding(2, 2, 2, 2);
+            rightboundary_2.Location = new Point(795, 94);
+            rightboundary_2.Margin = new Padding(2);
             rightboundary_2.Name = "rightboundary_2";
             rightboundary_2.Size = new Size(26, 22);
             rightboundary_2.TabIndex = 35;
             rightboundary_2.TabStop = false;
+            rightboundary_2.Visible = false;
             // 
             // leftboundary_2
             // 
             leftboundary_2.BackColor = Color.Red;
-            leftboundary_2.Location = new Point(763, 115);
-            leftboundary_2.Margin = new Padding(2, 2, 2, 2);
+            leftboundary_2.Location = new Point(740, 94);
+            leftboundary_2.Margin = new Padding(2);
             leftboundary_2.Name = "leftboundary_2";
             leftboundary_2.Size = new Size(26, 22);
             leftboundary_2.TabIndex = 36;
             leftboundary_2.TabStop = false;
+            leftboundary_2.Visible = false;
             // 
             // rightboundary_4
             // 
             rightboundary_4.BackColor = Color.Red;
-            rightboundary_4.Location = new Point(818, 200);
-            rightboundary_4.Margin = new Padding(2, 2, 2, 2);
+            rightboundary_4.Location = new Point(794, 178);
+            rightboundary_4.Margin = new Padding(2);
             rightboundary_4.Name = "rightboundary_4";
             rightboundary_4.Size = new Size(26, 22);
             rightboundary_4.TabIndex = 37;
             rightboundary_4.TabStop = false;
+            rightboundary_4.Visible = false;
             // 
             // leftboundary_4
             // 
             leftboundary_4.BackColor = Color.Red;
-            leftboundary_4.Location = new Point(763, 200);
-            leftboundary_4.Margin = new Padding(2, 2, 2, 2);
+            leftboundary_4.Location = new Point(740, 178);
+            leftboundary_4.Margin = new Padding(2);
             leftboundary_4.Name = "leftboundary_4";
             leftboundary_4.Size = new Size(26, 22);
             leftboundary_4.TabIndex = 38;
             leftboundary_4.TabStop = false;
+            leftboundary_4.Visible = false;
             // 
             // rightboundary_6
             // 
             rightboundary_6.BackColor = Color.Red;
-            rightboundary_6.Location = new Point(818, 277);
-            rightboundary_6.Margin = new Padding(2, 2, 2, 2);
+            rightboundary_6.Location = new Point(795, 256);
+            rightboundary_6.Margin = new Padding(2);
             rightboundary_6.Name = "rightboundary_6";
             rightboundary_6.Size = new Size(26, 22);
             rightboundary_6.TabIndex = 39;
             rightboundary_6.TabStop = false;
+            rightboundary_6.Visible = false;
             // 
             // leftboundary_6
             // 
             leftboundary_6.BackColor = Color.Red;
-            leftboundary_6.Location = new Point(763, 277);
-            leftboundary_6.Margin = new Padding(2, 2, 2, 2);
+            leftboundary_6.Location = new Point(740, 256);
+            leftboundary_6.Margin = new Padding(2);
             leftboundary_6.Name = "leftboundary_6";
             leftboundary_6.Size = new Size(26, 22);
             leftboundary_6.TabIndex = 40;
             leftboundary_6.TabStop = false;
+            leftboundary_6.Visible = false;
             // 
             // rightboundary_1
             // 
             rightboundary_1.BackColor = Color.Red;
-            rightboundary_1.Location = new Point(115, 115);
-            rightboundary_1.Margin = new Padding(2, 2, 2, 2);
+            rightboundary_1.Location = new Point(92, 94);
+            rightboundary_1.Margin = new Padding(2);
             rightboundary_1.Name = "rightboundary_1";
             rightboundary_1.Size = new Size(26, 22);
             rightboundary_1.TabIndex = 41;
             rightboundary_1.TabStop = false;
+            rightboundary_1.Visible = false;
             // 
             // leftboundary_1
             // 
             leftboundary_1.BackColor = Color.Red;
-            leftboundary_1.Location = new Point(60, 115);
-            leftboundary_1.Margin = new Padding(2, 2, 2, 2);
+            leftboundary_1.Location = new Point(37, 94);
+            leftboundary_1.Margin = new Padding(2);
             leftboundary_1.Name = "leftboundary_1";
             leftboundary_1.Size = new Size(26, 22);
             leftboundary_1.TabIndex = 42;
             leftboundary_1.TabStop = false;
+            leftboundary_1.Visible = false;
             // 
             // rightboundary_3
             // 
             rightboundary_3.BackColor = Color.Red;
-            rightboundary_3.Location = new Point(115, 200);
-            rightboundary_3.Margin = new Padding(2, 2, 2, 2);
+            rightboundary_3.Location = new Point(92, 179);
+            rightboundary_3.Margin = new Padding(2);
             rightboundary_3.Name = "rightboundary_3";
             rightboundary_3.Size = new Size(26, 22);
             rightboundary_3.TabIndex = 43;
             rightboundary_3.TabStop = false;
+            rightboundary_3.Visible = false;
             // 
             // leftboundary_3
             // 
             leftboundary_3.BackColor = Color.Red;
-            leftboundary_3.Location = new Point(60, 200);
-            leftboundary_3.Margin = new Padding(2, 2, 2, 2);
+            leftboundary_3.Location = new Point(37, 179);
+            leftboundary_3.Margin = new Padding(2);
             leftboundary_3.Name = "leftboundary_3";
             leftboundary_3.Size = new Size(26, 22);
             leftboundary_3.TabIndex = 44;
             leftboundary_3.TabStop = false;
+            leftboundary_3.Visible = false;
             // 
             // rightboundary_5
             // 
             rightboundary_5.BackColor = Color.Red;
-            rightboundary_5.Location = new Point(115, 285);
-            rightboundary_5.Margin = new Padding(2, 2, 2, 2);
+            rightboundary_5.Location = new Point(89, 261);
+            rightboundary_5.Margin = new Padding(2);
             rightboundary_5.Name = "rightboundary_5";
             rightboundary_5.Size = new Size(26, 22);
             rightboundary_5.TabIndex = 45;
             rightboundary_5.TabStop = false;
+            rightboundary_5.Visible = false;
             // 
             // leftboundary_5
             // 
             leftboundary_5.BackColor = Color.Red;
-            leftboundary_5.Location = new Point(60, 285);
-            leftboundary_5.Margin = new Padding(2, 2, 2, 2);
+            leftboundary_5.Location = new Point(37, 263);
+            leftboundary_5.Margin = new Padding(2);
             leftboundary_5.Name = "leftboundary_5";
             leftboundary_5.Size = new Size(26, 22);
             leftboundary_5.TabIndex = 46;
             leftboundary_5.TabStop = false;
+            leftboundary_5.Visible = false;
             // 
             // pictureBox22
             // 
             pictureBox22.BackColor = Color.Red;
-            pictureBox22.Location = new Point(739, 175);
-            pictureBox22.Margin = new Padding(2, 2, 2, 2);
+            pictureBox22.Location = new Point(716, 154);
+            pictureBox22.Margin = new Padding(2);
             pictureBox22.Name = "pictureBox22";
             pictureBox22.Size = new Size(26, 22);
             pictureBox22.TabIndex = 47;
             pictureBox22.TabStop = false;
+            pictureBox22.Visible = false;
             // 
             // pictureBox23
             // 
             pictureBox23.BackColor = Color.Red;
-            pictureBox23.Location = new Point(654, 175);
-            pictureBox23.Margin = new Padding(2, 2, 2, 2);
+            pictureBox23.Location = new Point(631, 154);
+            pictureBox23.Margin = new Padding(2);
             pictureBox23.Name = "pictureBox23";
             pictureBox23.Size = new Size(26, 22);
             pictureBox23.TabIndex = 48;
             pictureBox23.TabStop = false;
+            pictureBox23.Visible = false;
             // 
             // pictureBox24
             // 
             pictureBox24.BackColor = Color.Red;
-            pictureBox24.Location = new Point(565, 175);
-            pictureBox24.Margin = new Padding(2, 2, 2, 2);
+            pictureBox24.Location = new Point(542, 154);
+            pictureBox24.Margin = new Padding(2);
             pictureBox24.Name = "pictureBox24";
             pictureBox24.Size = new Size(26, 22);
             pictureBox24.TabIndex = 49;
             pictureBox24.TabStop = false;
+            pictureBox24.Visible = false;
             // 
             // pictureBox25
             // 
             pictureBox25.BackColor = Color.Red;
-            pictureBox25.Location = new Point(316, 175);
-            pictureBox25.Margin = new Padding(2, 2, 2, 2);
+            pictureBox25.Location = new Point(293, 149);
+            pictureBox25.Margin = new Padding(2);
             pictureBox25.Name = "pictureBox25";
             pictureBox25.Size = new Size(26, 22);
             pictureBox25.TabIndex = 50;
             pictureBox25.TabStop = false;
+            pictureBox25.Visible = false;
             // 
             // pictureBox26
             // 
             pictureBox26.BackColor = Color.Red;
-            pictureBox26.Location = new Point(232, 175);
-            pictureBox26.Margin = new Padding(2, 2, 2, 2);
+            pictureBox26.Location = new Point(209, 149);
+            pictureBox26.Margin = new Padding(2);
             pictureBox26.Name = "pictureBox26";
             pictureBox26.Size = new Size(26, 22);
             pictureBox26.TabIndex = 51;
             pictureBox26.TabStop = false;
+            pictureBox26.Visible = false;
             // 
             // pictureBox27
             // 
             pictureBox27.BackColor = Color.Red;
-            pictureBox27.Location = new Point(155, 175);
-            pictureBox27.Margin = new Padding(2, 2, 2, 2);
+            pictureBox27.Location = new Point(132, 153);
+            pictureBox27.Margin = new Padding(2);
             pictureBox27.Name = "pictureBox27";
             pictureBox27.Size = new Size(26, 22);
             pictureBox27.TabIndex = 52;
             pictureBox27.TabStop = false;
+            pictureBox27.Visible = false;
             // 
             // pictureBox28
             // 
             pictureBox28.BackColor = Color.Red;
-            pictureBox28.Location = new Point(155, 134);
-            pictureBox28.Margin = new Padding(2, 2, 2, 2);
+            pictureBox28.Location = new Point(132, 113);
+            pictureBox28.Margin = new Padding(2);
             pictureBox28.Name = "pictureBox28";
             pictureBox28.Size = new Size(26, 22);
             pictureBox28.TabIndex = 53;
             pictureBox28.TabStop = false;
+            pictureBox28.Visible = false;
             // 
             // pictureBox29
             // 
             pictureBox29.BackColor = Color.Red;
-            pictureBox29.Location = new Point(232, 134);
-            pictureBox29.Margin = new Padding(2, 2, 2, 2);
+            pictureBox29.Location = new Point(209, 115);
+            pictureBox29.Margin = new Padding(2);
             pictureBox29.Name = "pictureBox29";
             pictureBox29.Size = new Size(26, 22);
             pictureBox29.TabIndex = 54;
             pictureBox29.TabStop = false;
+            pictureBox29.Visible = false;
             // 
             // pictureBox30
             // 
             pictureBox30.BackColor = Color.Red;
-            pictureBox30.Location = new Point(316, 134);
-            pictureBox30.Margin = new Padding(2, 2, 2, 2);
+            pictureBox30.Location = new Point(293, 113);
+            pictureBox30.Margin = new Padding(2);
             pictureBox30.Name = "pictureBox30";
             pictureBox30.Size = new Size(26, 22);
             pictureBox30.TabIndex = 55;
             pictureBox30.TabStop = false;
+            pictureBox30.Visible = false;
             // 
             // pictureBox31
             // 
             pictureBox31.BackColor = Color.Red;
-            pictureBox31.Location = new Point(565, 134);
-            pictureBox31.Margin = new Padding(2, 2, 2, 2);
+            pictureBox31.Location = new Point(542, 113);
+            pictureBox31.Margin = new Padding(2);
             pictureBox31.Name = "pictureBox31";
             pictureBox31.Size = new Size(26, 22);
             pictureBox31.TabIndex = 56;
             pictureBox31.TabStop = false;
+            pictureBox31.Visible = false;
             // 
             // pictureBox32
             // 
             pictureBox32.BackColor = Color.Red;
-            pictureBox32.Location = new Point(654, 134);
-            pictureBox32.Margin = new Padding(2, 2, 2, 2);
+            pictureBox32.Location = new Point(631, 113);
+            pictureBox32.Margin = new Padding(2);
             pictureBox32.Name = "pictureBox32";
             pictureBox32.Size = new Size(26, 22);
             pictureBox32.TabIndex = 57;
             pictureBox32.TabStop = false;
+            pictureBox32.Visible = false;
             // 
             // pictureBox33
             // 
             pictureBox33.BackColor = Color.Red;
-            pictureBox33.Location = new Point(739, 134);
-            pictureBox33.Margin = new Padding(2, 2, 2, 2);
+            pictureBox33.Location = new Point(716, 113);
+            pictureBox33.Margin = new Padding(2);
             pictureBox33.Name = "pictureBox33";
             pictureBox33.Size = new Size(26, 22);
             pictureBox33.TabIndex = 58;
             pictureBox33.TabStop = false;
+            pictureBox33.Visible = false;
             // 
             // pictureBox34
             // 
             pictureBox34.BackColor = Color.Red;
-            pictureBox34.Location = new Point(739, 258);
-            pictureBox34.Margin = new Padding(2, 2, 2, 2);
+            pictureBox34.Location = new Point(716, 237);
+            pictureBox34.Margin = new Padding(2);
             pictureBox34.Name = "pictureBox34";
             pictureBox34.Size = new Size(26, 22);
             pictureBox34.TabIndex = 59;
             pictureBox34.TabStop = false;
+            pictureBox34.Visible = false;
             // 
             // pictureBox35
             // 
             pictureBox35.BackColor = Color.Red;
-            pictureBox35.Location = new Point(232, 258);
-            pictureBox35.Margin = new Padding(2, 2, 2, 2);
+            pictureBox35.Location = new Point(209, 237);
+            pictureBox35.Margin = new Padding(2);
             pictureBox35.Name = "pictureBox35";
             pictureBox35.Size = new Size(26, 22);
             pictureBox35.TabIndex = 60;
             pictureBox35.TabStop = false;
+            pictureBox35.Visible = false;
             // 
             // pictureBox36
             // 
             pictureBox36.BackColor = Color.Red;
-            pictureBox36.Location = new Point(316, 258);
-            pictureBox36.Margin = new Padding(2, 2, 2, 2);
+            pictureBox36.Location = new Point(293, 237);
+            pictureBox36.Margin = new Padding(2);
             pictureBox36.Name = "pictureBox36";
             pictureBox36.Size = new Size(26, 22);
             pictureBox36.TabIndex = 61;
             pictureBox36.TabStop = false;
+            pictureBox36.Visible = false;
             // 
             // pictureBox37
             // 
             pictureBox37.BackColor = Color.Red;
-            pictureBox37.Location = new Point(565, 258);
-            pictureBox37.Margin = new Padding(2, 2, 2, 2);
+            pictureBox37.Location = new Point(542, 237);
+            pictureBox37.Margin = new Padding(2);
             pictureBox37.Name = "pictureBox37";
             pictureBox37.Size = new Size(26, 22);
             pictureBox37.TabIndex = 62;
             pictureBox37.TabStop = false;
+            pictureBox37.Visible = false;
             // 
             // pictureBox38
             // 
             pictureBox38.BackColor = Color.Red;
-            pictureBox38.Location = new Point(654, 258);
-            pictureBox38.Margin = new Padding(2, 2, 2, 2);
+            pictureBox38.Location = new Point(631, 237);
+            pictureBox38.Margin = new Padding(2);
             pictureBox38.Name = "pictureBox38";
             pictureBox38.Size = new Size(26, 22);
             pictureBox38.TabIndex = 63;
             pictureBox38.TabStop = false;
+            pictureBox38.Visible = false;
             // 
             // pictureBox39
             // 
             pictureBox39.BackColor = Color.Red;
-            pictureBox39.Location = new Point(155, 258);
-            pictureBox39.Margin = new Padding(2, 2, 2, 2);
+            pictureBox39.Location = new Point(132, 237);
+            pictureBox39.Margin = new Padding(2);
             pictureBox39.Name = "pictureBox39";
             pictureBox39.Size = new Size(26, 22);
             pictureBox39.TabIndex = 64;
             pictureBox39.TabStop = false;
+            pictureBox39.Visible = false;
             // 
             // pictureBox40
             // 
             pictureBox40.BackColor = Color.Red;
-            pictureBox40.Location = new Point(155, 220);
-            pictureBox40.Margin = new Padding(2, 2, 2, 2);
+            pictureBox40.Location = new Point(132, 199);
+            pictureBox40.Margin = new Padding(2);
             pictureBox40.Name = "pictureBox40";
             pictureBox40.Size = new Size(26, 22);
             pictureBox40.TabIndex = 65;
             pictureBox40.TabStop = false;
+            pictureBox40.Visible = false;
             // 
             // pictureBox41
             // 
             pictureBox41.BackColor = Color.Red;
-            pictureBox41.Location = new Point(232, 220);
-            pictureBox41.Margin = new Padding(2, 2, 2, 2);
+            pictureBox41.Location = new Point(209, 199);
+            pictureBox41.Margin = new Padding(2);
             pictureBox41.Name = "pictureBox41";
             pictureBox41.Size = new Size(26, 22);
             pictureBox41.TabIndex = 66;
             pictureBox41.TabStop = false;
+            pictureBox41.Visible = false;
             // 
             // pictureBox42
             // 
             pictureBox42.BackColor = Color.Red;
-            pictureBox42.Location = new Point(316, 220);
-            pictureBox42.Margin = new Padding(2, 2, 2, 2);
+            pictureBox42.Location = new Point(293, 199);
+            pictureBox42.Margin = new Padding(2);
             pictureBox42.Name = "pictureBox42";
             pictureBox42.Size = new Size(26, 22);
             pictureBox42.TabIndex = 67;
             pictureBox42.TabStop = false;
+            pictureBox42.Visible = false;
             // 
             // pictureBox43
             // 
             pictureBox43.BackColor = Color.Red;
-            pictureBox43.Location = new Point(739, 220);
-            pictureBox43.Margin = new Padding(2, 2, 2, 2);
+            pictureBox43.Location = new Point(716, 199);
+            pictureBox43.Margin = new Padding(2);
             pictureBox43.Name = "pictureBox43";
             pictureBox43.Size = new Size(26, 22);
             pictureBox43.TabIndex = 68;
             pictureBox43.TabStop = false;
+            pictureBox43.Visible = false;
             // 
             // pictureBox44
             // 
             pictureBox44.BackColor = Color.Red;
-            pictureBox44.Location = new Point(654, 220);
-            pictureBox44.Margin = new Padding(2, 2, 2, 2);
+            pictureBox44.Location = new Point(631, 199);
+            pictureBox44.Margin = new Padding(2);
             pictureBox44.Name = "pictureBox44";
             pictureBox44.Size = new Size(26, 22);
             pictureBox44.TabIndex = 69;
             pictureBox44.TabStop = false;
+            pictureBox44.Visible = false;
             // 
             // pictureBox45
             // 
             pictureBox45.BackColor = Color.Red;
-            pictureBox45.Location = new Point(565, 220);
-            pictureBox45.Margin = new Padding(2, 2, 2, 2);
+            pictureBox45.Location = new Point(542, 199);
+            pictureBox45.Margin = new Padding(2);
             pictureBox45.Name = "pictureBox45";
             pictureBox45.Size = new Size(26, 22);
             pictureBox45.TabIndex = 70;
             pictureBox45.TabStop = false;
+            pictureBox45.Visible = false;
             // 
             // pictureBox46
             // 
             pictureBox46.BackColor = Color.Red;
-            pictureBox46.Location = new Point(138, 346);
-            pictureBox46.Margin = new Padding(2, 2, 2, 2);
+            pictureBox46.Location = new Point(116, 326);
+            pictureBox46.Margin = new Padding(2);
             pictureBox46.Name = "pictureBox46";
             pictureBox46.Size = new Size(26, 22);
             pictureBox46.TabIndex = 71;
             pictureBox46.TabStop = false;
+            pictureBox46.Visible = false;
             // 
             // pictureBox47
             // 
             pictureBox47.BackColor = Color.Red;
-            pictureBox47.Location = new Point(302, 346);
-            pictureBox47.Margin = new Padding(2, 2, 2, 2);
+            pictureBox47.Location = new Point(280, 326);
+            pictureBox47.Margin = new Padding(2);
             pictureBox47.Name = "pictureBox47";
             pictureBox47.Size = new Size(26, 22);
             pictureBox47.TabIndex = 72;
             pictureBox47.TabStop = false;
+            pictureBox47.Visible = false;
             // 
             // pictureBox48
             // 
             pictureBox48.BackColor = Color.Red;
-            pictureBox48.Location = new Point(218, 346);
-            pictureBox48.Margin = new Padding(2, 2, 2, 2);
+            pictureBox48.Location = new Point(196, 326);
+            pictureBox48.Margin = new Padding(2);
             pictureBox48.Name = "pictureBox48";
             pictureBox48.Size = new Size(26, 22);
             pictureBox48.TabIndex = 73;
             pictureBox48.TabStop = false;
+            pictureBox48.Visible = false;
             pictureBox48.Click += pictureBox48_Click;
             // 
             // pictureBox49
             // 
             pictureBox49.BackColor = Color.Red;
-            pictureBox49.Location = new Point(721, 346);
-            pictureBox49.Margin = new Padding(2, 2, 2, 2);
+            pictureBox49.Location = new Point(699, 326);
+            pictureBox49.Margin = new Padding(2);
             pictureBox49.Name = "pictureBox49";
             pictureBox49.Size = new Size(26, 22);
             pictureBox49.TabIndex = 74;
             pictureBox49.TabStop = false;
+            pictureBox49.Visible = false;
             // 
             // pictureBox50
             // 
             pictureBox50.BackColor = Color.Red;
-            pictureBox50.Location = new Point(637, 346);
-            pictureBox50.Margin = new Padding(2, 2, 2, 2);
+            pictureBox50.Location = new Point(615, 326);
+            pictureBox50.Margin = new Padding(2);
             pictureBox50.Name = "pictureBox50";
             pictureBox50.Size = new Size(26, 22);
             pictureBox50.TabIndex = 75;
             pictureBox50.TabStop = false;
+            pictureBox50.Visible = false;
             // 
             // pictureBox51
             // 
             pictureBox51.BackColor = Color.Red;
-            pictureBox51.Location = new Point(550, 346);
-            pictureBox51.Margin = new Padding(2, 2, 2, 2);
+            pictureBox51.Location = new Point(528, 326);
+            pictureBox51.Margin = new Padding(2);
             pictureBox51.Name = "pictureBox51";
             pictureBox51.Size = new Size(26, 22);
             pictureBox51.TabIndex = 76;
             pictureBox51.TabStop = false;
+            pictureBox51.Visible = false;
             // 
             // pictureBox52
             // 
             pictureBox52.BackColor = Color.Red;
-            pictureBox52.Location = new Point(302, 305);
-            pictureBox52.Margin = new Padding(2, 2, 2, 2);
+            pictureBox52.Location = new Point(279, 284);
+            pictureBox52.Margin = new Padding(2);
             pictureBox52.Name = "pictureBox52";
             pictureBox52.Size = new Size(26, 22);
             pictureBox52.TabIndex = 77;
             pictureBox52.TabStop = false;
+            pictureBox52.Visible = false;
             // 
             // pictureBox53
             // 
             pictureBox53.BackColor = Color.Red;
-            pictureBox53.Location = new Point(217, 305);
-            pictureBox53.Margin = new Padding(2, 2, 2, 2);
+            pictureBox53.Location = new Point(194, 284);
+            pictureBox53.Margin = new Padding(2);
             pictureBox53.Name = "pictureBox53";
             pictureBox53.Size = new Size(26, 22);
             pictureBox53.TabIndex = 78;
             pictureBox53.TabStop = false;
+            pictureBox53.Visible = false;
             // 
             // pictureBox54
             // 
             pictureBox54.BackColor = Color.Red;
-            pictureBox54.Location = new Point(138, 305);
-            pictureBox54.Margin = new Padding(2, 2, 2, 2);
+            pictureBox54.Location = new Point(115, 284);
+            pictureBox54.Margin = new Padding(2);
             pictureBox54.Name = "pictureBox54";
             pictureBox54.Size = new Size(26, 22);
             pictureBox54.TabIndex = 79;
             pictureBox54.TabStop = false;
+            pictureBox54.Visible = false;
             // 
             // pictureBox55
             // 
             pictureBox55.BackColor = Color.Red;
-            pictureBox55.Location = new Point(550, 305);
-            pictureBox55.Margin = new Padding(2, 2, 2, 2);
+            pictureBox55.Location = new Point(527, 284);
+            pictureBox55.Margin = new Padding(2);
             pictureBox55.Name = "pictureBox55";
             pictureBox55.Size = new Size(26, 22);
             pictureBox55.TabIndex = 80;
             pictureBox55.TabStop = false;
+            pictureBox55.Visible = false;
             // 
             // pictureBox56
             // 
             pictureBox56.BackColor = Color.Red;
-            pictureBox56.Location = new Point(637, 306);
-            pictureBox56.Margin = new Padding(2, 2, 2, 2);
+            pictureBox56.Location = new Point(614, 285);
+            pictureBox56.Margin = new Padding(2);
             pictureBox56.Name = "pictureBox56";
             pictureBox56.Size = new Size(26, 22);
             pictureBox56.TabIndex = 81;
             pictureBox56.TabStop = false;
+            pictureBox56.Visible = false;
             // 
             // pictureBox57
             // 
             pictureBox57.BackColor = Color.Red;
-            pictureBox57.Location = new Point(721, 306);
-            pictureBox57.Margin = new Padding(2, 2, 2, 2);
+            pictureBox57.Location = new Point(698, 285);
+            pictureBox57.Margin = new Padding(2);
             pictureBox57.Name = "pictureBox57";
             pictureBox57.Size = new Size(26, 22);
             pictureBox57.TabIndex = 82;
             pictureBox57.TabStop = false;
+            pictureBox57.Visible = false;
             // 
             // pictureBox58
             // 
             pictureBox58.BackColor = Color.Red;
-            pictureBox58.Location = new Point(384, 304);
-            pictureBox58.Margin = new Padding(2, 2, 2, 2);
+            pictureBox58.Location = new Point(361, 283);
+            pictureBox58.Margin = new Padding(2);
             pictureBox58.Name = "pictureBox58";
             pictureBox58.Size = new Size(26, 22);
             pictureBox58.TabIndex = 83;
             pictureBox58.TabStop = false;
+            pictureBox58.Visible = false;
             // 
             // pictureBox59
             // 
             pictureBox59.BackColor = Color.Red;
-            pictureBox59.Location = new Point(467, 306);
-            pictureBox59.Margin = new Padding(2, 2, 2, 2);
+            pictureBox59.Location = new Point(444, 285);
+            pictureBox59.Margin = new Padding(2);
             pictureBox59.Name = "pictureBox59";
             pictureBox59.Size = new Size(26, 22);
             pictureBox59.TabIndex = 84;
             pictureBox59.TabStop = false;
+            pictureBox59.Visible = false;
             // 
             // pictureBox60
             // 
             pictureBox60.BackColor = Color.Red;
-            pictureBox60.Location = new Point(467, 346);
-            pictureBox60.Margin = new Padding(2, 2, 2, 2);
+            pictureBox60.Location = new Point(445, 326);
+            pictureBox60.Margin = new Padding(2);
             pictureBox60.Name = "pictureBox60";
             pictureBox60.Size = new Size(26, 22);
             pictureBox60.TabIndex = 85;
             pictureBox60.TabStop = false;
+            pictureBox60.Visible = false;
             // 
             // pictureBox61
             // 
             pictureBox61.BackColor = Color.Red;
-            pictureBox61.Location = new Point(384, 346);
-            pictureBox61.Margin = new Padding(2, 2, 2, 2);
+            pictureBox61.Location = new Point(362, 326);
+            pictureBox61.Margin = new Padding(2);
             pictureBox61.Name = "pictureBox61";
             pictureBox61.Size = new Size(26, 22);
             pictureBox61.TabIndex = 86;
             pictureBox61.TabStop = false;
+            pictureBox61.Visible = false;
             // 
             // obstacle_9
             // 
             obstacle_9.BackColor = Color.Black;
-            obstacle_9.Location = new Point(155, 134);
-            obstacle_9.Margin = new Padding(2, 2, 2, 2);
+            obstacle_9.Location = new Point(132, 114);
+            obstacle_9.Margin = new Padding(2);
             obstacle_9.Name = "obstacle_9";
             obstacle_9.Size = new Size(27, 21);
             obstacle_9.TabIndex = 87;
@@ -1151,8 +1219,8 @@
             // obstacle_10
             // 
             obstacle_10.BackColor = Color.Black;
-            obstacle_10.Location = new Point(232, 175);
-            obstacle_10.Margin = new Padding(2, 2, 2, 2);
+            obstacle_10.Location = new Point(208, 150);
+            obstacle_10.Margin = new Padding(2);
             obstacle_10.Name = "obstacle_10";
             obstacle_10.Size = new Size(27, 21);
             obstacle_10.TabIndex = 88;
@@ -1161,8 +1229,8 @@
             // obstacle_12
             // 
             obstacle_12.BackColor = Color.Black;
-            obstacle_12.Location = new Point(565, 134);
-            obstacle_12.Margin = new Padding(2, 2, 2, 2);
+            obstacle_12.Location = new Point(540, 113);
+            obstacle_12.Margin = new Padding(2);
             obstacle_12.Name = "obstacle_12";
             obstacle_12.Size = new Size(27, 21);
             obstacle_12.TabIndex = 89;
@@ -1171,8 +1239,8 @@
             // obstacle_11
             // 
             obstacle_11.BackColor = Color.Black;
-            obstacle_11.Location = new Point(314, 134);
-            obstacle_11.Margin = new Padding(2, 2, 2, 2);
+            obstacle_11.Location = new Point(292, 114);
+            obstacle_11.Margin = new Padding(2);
             obstacle_11.Name = "obstacle_11";
             obstacle_11.Size = new Size(27, 21);
             obstacle_11.TabIndex = 90;
@@ -1181,8 +1249,8 @@
             // obstacle_16
             // 
             obstacle_16.BackColor = Color.Black;
-            obstacle_16.Location = new Point(232, 258);
-            obstacle_16.Margin = new Padding(2, 2, 2, 2);
+            obstacle_16.Location = new Point(209, 237);
+            obstacle_16.Margin = new Padding(2);
             obstacle_16.Name = "obstacle_16";
             obstacle_16.Size = new Size(27, 21);
             obstacle_16.TabIndex = 91;
@@ -1192,8 +1260,8 @@
             // obstacle_15
             // 
             obstacle_15.BackColor = Color.Black;
-            obstacle_15.Location = new Point(155, 220);
-            obstacle_15.Margin = new Padding(2, 2, 2, 2);
+            obstacle_15.Location = new Point(131, 199);
+            obstacle_15.Margin = new Padding(2);
             obstacle_15.Name = "obstacle_15";
             obstacle_15.Size = new Size(27, 21);
             obstacle_15.TabIndex = 92;
@@ -1202,8 +1270,8 @@
             // obstacle_14
             // 
             obstacle_14.BackColor = Color.Black;
-            obstacle_14.Location = new Point(739, 134);
-            obstacle_14.Margin = new Padding(2, 2, 2, 2);
+            obstacle_14.Location = new Point(715, 113);
+            obstacle_14.Margin = new Padding(2);
             obstacle_14.Name = "obstacle_14";
             obstacle_14.Size = new Size(27, 21);
             obstacle_14.TabIndex = 93;
@@ -1212,8 +1280,8 @@
             // obstacle_13
             // 
             obstacle_13.BackColor = Color.Black;
-            obstacle_13.Location = new Point(654, 175);
-            obstacle_13.Margin = new Padding(2, 2, 2, 2);
+            obstacle_13.Location = new Point(630, 155);
+            obstacle_13.Margin = new Padding(2);
             obstacle_13.Name = "obstacle_13";
             obstacle_13.Size = new Size(27, 21);
             obstacle_13.TabIndex = 94;
@@ -1222,8 +1290,8 @@
             // obstacle_17
             // 
             obstacle_17.BackColor = Color.Black;
-            obstacle_17.Location = new Point(316, 220);
-            obstacle_17.Margin = new Padding(2, 2, 2, 2);
+            obstacle_17.Location = new Point(292, 199);
+            obstacle_17.Margin = new Padding(2);
             obstacle_17.Name = "obstacle_17";
             obstacle_17.Size = new Size(27, 21);
             obstacle_17.TabIndex = 95;
@@ -1232,8 +1300,8 @@
             // obstacle_18
             // 
             obstacle_18.BackColor = Color.Black;
-            obstacle_18.Location = new Point(565, 220);
-            obstacle_18.Margin = new Padding(2, 2, 2, 2);
+            obstacle_18.Location = new Point(540, 199);
+            obstacle_18.Margin = new Padding(2);
             obstacle_18.Name = "obstacle_18";
             obstacle_18.Size = new Size(27, 21);
             obstacle_18.TabIndex = 96;
@@ -1242,8 +1310,8 @@
             // obstacle_19
             // 
             obstacle_19.BackColor = Color.Black;
-            obstacle_19.Location = new Point(654, 258);
-            obstacle_19.Margin = new Padding(2, 2, 2, 2);
+            obstacle_19.Location = new Point(631, 237);
+            obstacle_19.Margin = new Padding(2);
             obstacle_19.Name = "obstacle_19";
             obstacle_19.Size = new Size(27, 21);
             obstacle_19.TabIndex = 97;
@@ -1252,8 +1320,8 @@
             // obstacle_20
             // 
             obstacle_20.BackColor = Color.Black;
-            obstacle_20.Location = new Point(738, 220);
-            obstacle_20.Margin = new Padding(2, 2, 2, 2);
+            obstacle_20.Location = new Point(715, 199);
+            obstacle_20.Margin = new Padding(2);
             obstacle_20.Name = "obstacle_20";
             obstacle_20.Size = new Size(27, 21);
             obstacle_20.TabIndex = 98;
@@ -1262,8 +1330,8 @@
             // obstacle_21
             // 
             obstacle_21.BackColor = Color.Black;
-            obstacle_21.Location = new Point(138, 306);
-            obstacle_21.Margin = new Padding(2, 2, 2, 2);
+            obstacle_21.Location = new Point(114, 286);
+            obstacle_21.Margin = new Padding(2);
             obstacle_21.Name = "obstacle_21";
             obstacle_21.Size = new Size(27, 21);
             obstacle_21.TabIndex = 99;
@@ -1272,8 +1340,8 @@
             // obstacle_22
             // 
             obstacle_22.BackColor = Color.Black;
-            obstacle_22.Location = new Point(218, 346);
-            obstacle_22.Margin = new Padding(2, 2, 2, 2);
+            obstacle_22.Location = new Point(196, 326);
+            obstacle_22.Margin = new Padding(2);
             obstacle_22.Name = "obstacle_22";
             obstacle_22.Size = new Size(27, 21);
             obstacle_22.TabIndex = 100;
@@ -1282,8 +1350,8 @@
             // obstacle_23
             // 
             obstacle_23.BackColor = Color.Black;
-            obstacle_23.Location = new Point(302, 305);
-            obstacle_23.Margin = new Padding(2, 2, 2, 2);
+            obstacle_23.Location = new Point(278, 286);
+            obstacle_23.Margin = new Padding(2);
             obstacle_23.Name = "obstacle_23";
             obstacle_23.Size = new Size(27, 21);
             obstacle_23.TabIndex = 101;
@@ -1292,8 +1360,8 @@
             // obstacle_24
             // 
             obstacle_24.BackColor = Color.Black;
-            obstacle_24.Location = new Point(383, 346);
-            obstacle_24.Margin = new Padding(2, 2, 2, 2);
+            obstacle_24.Location = new Point(362, 326);
+            obstacle_24.Margin = new Padding(2);
             obstacle_24.Name = "obstacle_24";
             obstacle_24.Size = new Size(27, 21);
             obstacle_24.TabIndex = 102;
@@ -1302,8 +1370,8 @@
             // obstacle_25
             // 
             obstacle_25.BackColor = Color.Black;
-            obstacle_25.Location = new Point(467, 305);
-            obstacle_25.Margin = new Padding(2, 2, 2, 2);
+            obstacle_25.Location = new Point(443, 286);
+            obstacle_25.Margin = new Padding(2);
             obstacle_25.Name = "obstacle_25";
             obstacle_25.Size = new Size(27, 21);
             obstacle_25.TabIndex = 103;
@@ -1313,8 +1381,8 @@
             // obstacle_26
             // 
             obstacle_26.BackColor = Color.Black;
-            obstacle_26.Location = new Point(548, 346);
-            obstacle_26.Margin = new Padding(2, 2, 2, 2);
+            obstacle_26.Location = new Point(527, 326);
+            obstacle_26.Margin = new Padding(2);
             obstacle_26.Name = "obstacle_26";
             obstacle_26.Size = new Size(27, 21);
             obstacle_26.TabIndex = 104;
@@ -1324,8 +1392,8 @@
             // obstacle_27
             // 
             obstacle_27.BackColor = Color.Black;
-            obstacle_27.Location = new Point(637, 307);
-            obstacle_27.Margin = new Padding(2, 2, 2, 2);
+            obstacle_27.Location = new Point(613, 285);
+            obstacle_27.Margin = new Padding(2);
             obstacle_27.Name = "obstacle_27";
             obstacle_27.Size = new Size(27, 21);
             obstacle_27.TabIndex = 105;
@@ -1334,8 +1402,8 @@
             // obstacle_28
             // 
             obstacle_28.BackColor = Color.Black;
-            obstacle_28.Location = new Point(720, 346);
-            obstacle_28.Margin = new Padding(2, 2, 2, 2);
+            obstacle_28.Location = new Point(699, 326);
+            obstacle_28.Margin = new Padding(2);
             obstacle_28.Name = "obstacle_28";
             obstacle_28.Size = new Size(27, 21);
             obstacle_28.TabIndex = 106;
@@ -1344,8 +1412,8 @@
             // obstacle_29
             // 
             obstacle_29.BackColor = Color.Black;
-            obstacle_29.Location = new Point(59, 116);
-            obstacle_29.Margin = new Padding(2, 2, 2, 2);
+            obstacle_29.Location = new Point(91, 94);
+            obstacle_29.Margin = new Padding(2);
             obstacle_29.Name = "obstacle_29";
             obstacle_29.Size = new Size(27, 21);
             obstacle_29.TabIndex = 107;
@@ -1354,8 +1422,8 @@
             // obstacle_30
             // 
             obstacle_30.BackColor = Color.Black;
-            obstacle_30.Location = new Point(115, 200);
-            obstacle_30.Margin = new Padding(2, 2, 2, 2);
+            obstacle_30.Location = new Point(90, 179);
+            obstacle_30.Margin = new Padding(2);
             obstacle_30.Name = "obstacle_30";
             obstacle_30.Size = new Size(27, 21);
             obstacle_30.TabIndex = 108;
@@ -1364,18 +1432,19 @@
             // obstacle_31
             // 
             obstacle_31.BackColor = Color.Black;
-            obstacle_31.Location = new Point(60, 285);
-            obstacle_31.Margin = new Padding(2, 2, 2, 2);
+            obstacle_31.Location = new Point(36, 264);
+            obstacle_31.Margin = new Padding(2);
             obstacle_31.Name = "obstacle_31";
             obstacle_31.Size = new Size(27, 21);
             obstacle_31.TabIndex = 109;
             obstacle_31.TabStop = false;
+            obstacle_31.Click += obstacle_31_Click;
             // 
             // obstacle_32
             // 
             obstacle_32.BackColor = Color.Black;
-            obstacle_32.Location = new Point(816, 116);
-            obstacle_32.Margin = new Padding(2, 2, 2, 2);
+            obstacle_32.Location = new Point(794, 95);
+            obstacle_32.Margin = new Padding(2);
             obstacle_32.Name = "obstacle_32";
             obstacle_32.Size = new Size(27, 21);
             obstacle_32.TabIndex = 110;
@@ -1384,8 +1453,8 @@
             // obstacle_33
             // 
             obstacle_33.BackColor = Color.Black;
-            obstacle_33.Location = new Point(763, 200);
-            obstacle_33.Margin = new Padding(2, 2, 2, 2);
+            obstacle_33.Location = new Point(794, 179);
+            obstacle_33.Margin = new Padding(2);
             obstacle_33.Name = "obstacle_33";
             obstacle_33.Size = new Size(27, 21);
             obstacle_33.TabIndex = 111;
@@ -1394,8 +1463,8 @@
             // obstacle_34
             // 
             obstacle_34.BackColor = Color.Black;
-            obstacle_34.Location = new Point(818, 277);
-            obstacle_34.Margin = new Padding(2, 2, 2, 2);
+            obstacle_34.Location = new Point(794, 256);
+            obstacle_34.Margin = new Padding(2);
             obstacle_34.Name = "obstacle_34";
             obstacle_34.Size = new Size(27, 21);
             obstacle_34.TabIndex = 112;
@@ -1406,7 +1475,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(904, 452);
+            ClientSize = new Size(888, 490);
             Controls.Add(obstacle_34);
             Controls.Add(obstacle_33);
             Controls.Add(obstacle_32);
@@ -1520,7 +1589,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(startzonelevel);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "level_two";
             Text = "Form2";
             KeyDown += keyisdown;

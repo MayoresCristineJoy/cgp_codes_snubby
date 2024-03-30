@@ -133,28 +133,49 @@ namespace try_2_cgp {
                 obstacle_30.Left += obstacleSpeed;
                 obstacle_32.Left += obstacleSpeed;
                 obstacle_34.Left += obstacleSpeed;
+                obstacle_31.Left -= obstacleSpeed;
+                obstacle_33.Left += obstacleSpeed;
+                obstacle_29.Left += obstacleSpeed;
             } else if (!movingDown3 && obstacle_30.Left >= Leftbound_3) {
                 obstacle_30.Left -= obstacleSpeed;
                 obstacle_32.Left -= obstacleSpeed;
                 obstacle_34.Left -= obstacleSpeed;
+                obstacle_31.Left += obstacleSpeed;
+                obstacle_33.Left -= obstacleSpeed;
+                obstacle_29.Left -= obstacleSpeed;
+
             } else {
                 // Reverse direction when reaching boundaries
                 movingDown3 = !movingDown3;
             }
-
             /// number 4
             if (movingDown4 && obstacle_29.Left <= Rightbound_4) {
-                obstacle_29.Left += obstacleSpeed;
-                obstacle_31.Left += obstacleSpeed;
-                obstacle_33.Left += obstacleSpeed;
+
+
             } else if (!movingDown4 && obstacle_31.Left >= Leftbound_4) {
                 obstacle_29.Left -= obstacleSpeed;
                 obstacle_31.Left -= obstacleSpeed;
-                obstacle_33.Left -= obstacleSpeed;
+
             } else {
                 // Reverse direction when reaching boundaries
                 movingDown4 = !movingDown4;
             }
+            // wall collision
+            foreach (Control x in this.Controls) {
+                if (x is PictureBox && (string)x.Tag == "wall") {
+                    PictureBox wall = (PictureBox)x;
+
+                    if (player.Bounds.IntersectsWith(wall.Bounds)) {
+                        // Check both x and y coordinates
+                        if (player.Left < wall.Right && player.Right > wall.Left &&
+                            player.Top < wall.Bottom && player.Bottom > wall.Top) {
+                            // If the player intersects with the wall, revert to previous location
+                            player.Location = previousPlayerLocation;
+                        }
+                    }
+                }
+            }
+            previousPlayerLocation = player.Location;
         }
 
         private void keyisdown(object sender, KeyEventArgs e) {
@@ -211,6 +232,10 @@ namespace try_2_cgp {
         }
 
         private void obstacle_34_Click(object sender, EventArgs e) {
+
+        }
+
+        private void obstacle_31_Click(object sender, EventArgs e) {
 
         }
     }
