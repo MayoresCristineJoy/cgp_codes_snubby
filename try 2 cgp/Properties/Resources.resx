@@ -127,14 +127,23 @@
   <data name="Untitled1037_20240318200811" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled1037_20240318200811.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="432488241_1445819822997156_2281359772636947960_ncopy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\432488241_1445819822997156_2281359772636947960_ncopy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="433725158_1727549631067375_5159059991231372665_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\433725158_1727549631067375_5159059991231372665_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled1028_20240318161022" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled1028_20240318161022.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Untitled1027_20240318160630" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled1027_20240318160630.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="430007418_7323500717726411_8149383378512815970_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\430007418_7323500717726411_8149383378512815970_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="432488241_1445819822997156_2281359772636947960_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\432488241_1445819822997156_2281359772636947960_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="433708616_2990774524438129_6779344523841217643_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\433708616_2990774524438129_6779344523841217643_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +151,8 @@
   <data name="Untitled1036_20240318200744" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled1036_20240318200744.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bomb_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bomb_circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Untitled1035_20240318200724" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled1035_20240318200724.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="round1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\round1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +160,14 @@
   <data name="Untitled1032_20240318183207" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled1032_20240318183207.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled1027_20240318160630" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled1027_20240318160630.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bomb_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomb_circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="429989156_759798385861564_7074705020315259587_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\429989156_759798385861564_7074705020315259587_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="432488241_1445819822997156_2281359772636947960_ncopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\432488241_1445819822997156_2281359772636947960_ncopy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="423735574_715392560805066_5553690250873297229_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\423735574_715392560805066_5553690250873297229_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,7 +175,7 @@
   <data name="Untitled1026_20240318160339" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled1026_20240318160339.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled1035_20240318200724" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled1035_20240318200724.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="432488241_1445819822997156_2281359772636947960_ncopy - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\432488241_1445819822997156_2281359772636947960_ncopy - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

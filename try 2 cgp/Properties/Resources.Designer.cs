@@ -103,6 +103,46 @@ namespace try_2_cgp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _432488241_1445819822997156_2281359772636947960_n {
+            get {
+                object obj = ResourceManager.GetObject("432488241_1445819822997156_2281359772636947960_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _432488241_1445819822997156_2281359772636947960_ncopy {
+            get {
+                object obj = ResourceManager.GetObject("432488241_1445819822997156_2281359772636947960_ncopy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _432488241_1445819822997156_2281359772636947960_ncopy___Copy {
+            get {
+                object obj = ResourceManager.GetObject("432488241_1445819822997156_2281359772636947960_ncopy - Copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _432488241_1445819822997156_2281359772636947960_ncopy1 {
+            get {
+                object obj = ResourceManager.GetObject("432488241_1445819822997156_2281359772636947960_ncopy1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _433708616_2990774524438129_6779344523841217643_n {
             get {
                 object obj = ResourceManager.GetObject("433708616_2990774524438129_6779344523841217643_n", resourceCulture);

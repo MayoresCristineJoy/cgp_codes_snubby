@@ -14,7 +14,7 @@ namespace try_2_cgp {
         private bool movingDown2 = true;
         private bool movingDown3 = true;
         private bool movingDown4 = true;
-        private int obstacleSpeed = 2;
+        private int obstacleSpeed = 3;
         bool moveLeft, moveRight, moveUp, moveDown;
         int speed = 15;
         private Point previousPlayerLocation;
@@ -232,10 +232,6 @@ namespace try_2_cgp {
         }
 
         private void obstacle_34_Click(object sender, EventArgs e) {
-
-        }
-
-        private void obstacle_31_Click(object sender, EventArgs e) {
 
         }
     }
